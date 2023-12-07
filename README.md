@@ -14,7 +14,7 @@ Welcome to my portfolio repository! This is where I showcase my projects and sha
 ### Project 1: Time Series Ensembles (Open Source Project with DSML)
 [Description of Project 1]
 [Link to Live Demo]
-time-series-ensembles
+[time-series-ensembles](https://github.com/jguhit/jguhit.github.io/tree/main/time-series-ensembles)
 
 ### Project 2: Project Name
 [Description of Project 2]
