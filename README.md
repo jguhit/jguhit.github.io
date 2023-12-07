@@ -34,7 +34,7 @@ This portfolio is aimed at professionals in the industry, including consulting f
 - **Data Visualization**: Matplotlib, Seaborn
 - **Graphical User Interface (GUI)**: PyQt
 - **Version Control**: Git, GitLab, GitHub
-- **Statistical Analysis**: ROOT (Specific pa
+- **Statistical Analysis**: ROOT (Specific particle physics framework)
 - **Simulation Tools**: Xilinx Vivado (for FPGA programming)
 - **Network Metrics Analysis**: Wireshark
 - **Operating Systems**: Linux (Ubuntu)
