@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio repository! This is where I showcase my projects and share my journey as a [your profession].
+Welcome to my portfolio repository! This is where I showcase my projects and share my journey in Particle Physics, Data Science and Computing.
 
 ## Introduction
 [Provide a brief introduction about yourself and your background.]
@@ -11,10 +11,10 @@ Welcome to my portfolio repository! This is where I showcase my projects and sha
 ## Projects
 [List your projects here, including project names, descriptions, and links.]
 
-### Project 1: Project Name
+### Project 1: Time Series Ensembles (Open Source Project with DSML)
 [Description of Project 1]
 [Link to Live Demo]
-[Link to Code Repository]
+time-series-ensembles
 
 ### Project 2: Project Name
 [Description of Project 2]
