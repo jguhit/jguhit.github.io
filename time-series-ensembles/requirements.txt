@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
+sktime
+statsmodels
+jupyter
+tqdm
+kaleido
+category_encoders
