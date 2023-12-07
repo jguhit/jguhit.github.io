@@ -9,8 +9,6 @@ I have created this portfolio to succinctly present my body of work to potential
 This portfolio is aimed at professionals in the industry, including consulting firms, financial institutions, and technology companies. It provides a comprehensive view of my academic and professional journey, highlighting key projects and experiences that showcase my skills and capabilities.
 
 ## Projects
-[List your projects here, including project names, descriptions, and links.]
-
 ### Project 1: Time Series Ensembles (Open Source Project with DSML)
 - *Description*: In collaboration with the Data Science and Machine Learning (DSML) group based in New York City, New York, I contribute to an open source project focused on time series analysis. My work involves software development, particularly in the realm of financial stock data analysis. This project has allowed me to gain valuable experience in data preprocessing, manipulation, and analysis, bridging my background in pure physics with practical data science.
 - [time-series-ensembles](https://github.com/jguhit/jguhit.github.io/tree/main/time-series-ensembles)
