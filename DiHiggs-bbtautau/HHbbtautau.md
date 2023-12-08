@@ -18,3 +18,16 @@ My contributions are central to several significant improvements in the analysis
 
 **Unfortunately, due to privacy and security measures implemented at CERN, specific details and code from these experiments are not be publicly viewable.** 
 # Results 
+
+1. ggF high-mHH region
+<p float="left">
+  <img src="ggF_bbtautau.png" width="52%" />
+  <img src="vbf_bbtautau.png" width="46%" /> 
+  <p><em>Caption: Feynman diagram on the most dominant production modes for di-higgs production.</em></p>
+</p>
+
+2. ggF low-mHH region
+
+3. VBF region
+
+4. ggF/VBF region
