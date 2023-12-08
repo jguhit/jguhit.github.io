@@ -15,7 +15,7 @@ This portfolio is aimed at professionals in the industry, including consulting f
 
 ### Project 2: Combination Searches of Di-Higgs Pair Production
 - *Description*: Another significant contribution during my PhD involves the combination of three highly sensitive analyses in di-higgs pair production. This project requires a meticulous calculation of the final results, and I play a key role in this aspect of the analysis.
-- 
+- [Combination-HHSearches](https://github.com/jguhit/jguhit.github.io/tree/7f24ae794c2146b1f4a7dd8c6fe1ba4416983785/Combination-HHSearches)
   
 
 ### Project 3: Di-Higgs Search in the bbtautau Final State 
@@ -23,6 +23,7 @@ This portfolio is aimed at professionals in the industry, including consulting f
 - [DiHiggs-bbtautau](https://github.com/jguhit/jguhit.github.io/tree/07642b81486a1a0ca006e1dbfb31836cd779e4bc/DiHiggs-bbtautau)
 ### Project 4: FPGA Radiation Test for the ATLAS Experiment
 - *Description*: Beyond data analysis, I have engaged in a noteworthy project involving the programming of Field-Programmable Gate Arrays (FPGAs) using VHDL. Additionally, I developed a graphical user interface (GUI) program using the PyQt Module in Python to control the hardware during radiation experiments, store data, and conduct analysis.
+- 
 
 ### Project 5: NetBASILISK (Security Infrastructure Project)
 - *Description*: In collaboration with the University of Michigan Computer Science Department, I led a project called NetBASILISK. This security infrastructure project involved the creation of a benchmark framework for simulating data transfers and calculating statistical information. Additionally, I designed an environmental framework to extract network metrics during data transfers and correlate the results with the benchmark framework.
