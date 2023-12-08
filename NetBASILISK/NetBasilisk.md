@@ -17,5 +17,9 @@ The Physics department receives large data from outside sources (e.g ATLAS data 
 - Monitor relevant factors other than NetBASILISK that might impact transfers
 - Main deliverable: network metrics from the source, destination, and network-in-between 
 
+<div align="center">
+  <img src="AGLT2_Framework.png" alt=" AGLT2 Framework" width="600" height="300">
+  <p><em>Caption: Logic Flow in comparison to AGLT2 Framework Script.</em></p>
+</div>
 
 # Results
