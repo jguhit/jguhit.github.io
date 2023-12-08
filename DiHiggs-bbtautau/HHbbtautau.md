@@ -75,13 +75,18 @@ The plots show the hyperparameters (focusing on NTrees and MaxDepth) for Boosted
 ### Negative Log Likelihood Scans and Upper Limits 
 <div align="center">
   <img src="kappaL.png" alt="kappaL NLL" width="1200" height="400">
-  <p><em>Caption: kappaL NLL Scan, left: Combined, right: by channel.</em></p>
+  <p><em>Caption: kappaL NLL Scan, left: Combined, right: by channel. Kappa2V is fixed and kappaL is varied</em></p>
 </div>
 
 <div align="center">
   <img src="kappa2V.png" alt="kappa2V NLL" width="1200" height="400">
-  <p><em>Caption: kappa2V NLL Scan. left: Combined, right: by channel</em></p>
+  <p><em>Caption: kappa2V NLL Scan. left: Combined, right: by channel. KappaL is fixed and kappa2V is varied</em></p>
 </div>
 
-Calculating the Negative Log-Likelihood (NLL) scans has been crucial for analyzing and interpreting complex experimental data. This statistical method provides a quantifiable measure of how well theoretical models align with observed data, by assessing the probability of data occurrence under various model parameters. By minimizing the NLL, I can accurately determine the model parameters that best fit the data, thus offering a robust way to estimate particle properties and their interactions. Furthermore, NLL scans enable me to construct confidence intervals for these parameters, crucial for understanding their precision and reliability. This approach is integral to my work, enhancing the reliability and depth of my findings in the realm of high-energy physics.
+Calculating the Negative Log-Likelihood (NLL) scans has been crucial for analyzing and interpreting complex experimental data. This statistical method provides a quantifiable measure of how well theoretical models align with observed data, by assessing the probability of data occurrence under various model parameters. By minimizing the NLL, I can accurately determine the model parameters that best fit the data, thus offering a robust way to estimate particle properties and their interactions. Furthermore, NLL scans enable me to construct confidence intervals for these parameters, crucial for understanding their precision and reliability. This approach is integral to my work, enhancing the reliability and depth of my findings in the realm of high-energy physics. The plots above had one kappa fixed, as for the plot below, both kappa values are varied. 
+
+<div align="center">
+  <img src="2D_kappascan.png" alt="kappaL NLL" width="1200" height="400">
+  <p><em>Caption: kappaL NLL Scan, left: Combined, right: by channel. Kappa2V is fixed and kappaL is varied</em></p>
+</div>
 
