@@ -9,3 +9,13 @@ I conducted an analysis of the data, focusing on a wide range of $m_{X}$ values 
 
 **Unfortunately, due to privacy and security measures implemented at CERN, specific details and code from these experiments are not be publicly viewable.** 
 # Results 
+
+<div align="center">
+  <img src="p_value.png" alt="p-value" width="700" height="500">
+  <p><em>Caption: Local p-value at the 95% CL on the resonant Higgs boson pair production cross section as a function of the resonance mass.</em></p>
+</div>
+
+<div align="center">
+  <img src="limits.png" alt="95% CL Upper Limits" width="700" height="500">
+  <p><em>Caption: Observed and expected upper limits at the 95% CL on the resonant Higgs boson pair production cross section as a function of the resonance mass.</em></p>
+</div>
