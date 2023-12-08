@@ -25,6 +25,11 @@ The Physics department receives large data from outside sources (e.g ATLAS data 
 # Results
 
 <div align="center">
-  <img src="benchmark_result.png" alt=" Benchmark Result" width="600" height="300">
+  <img src="benchmark_result.png" alt=" Benchmark Result" width="400" height="200">
   <p><em>Caption: Summary shows relevant metadata about the benchmark test that could be further analyzed for patterns.</em></p>
+</div>
+
+<div align="center">
+  <img src="environmental_result.png" alt=" Benchmark Result" width="400" height="400">
+  <p><em>Caption: Grabs environment metrics in the network.</em></p>
 </div>
