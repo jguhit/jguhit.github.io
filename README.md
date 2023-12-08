@@ -47,7 +47,7 @@ This portfolio is aimed at professionals in the industry, including consulting f
 
 
 ## How to Navigate
-- **Sections**: My portfolio is organized into different sections, such as "Open Source Projects" and "PhD Projects." You can click on these sections in the menu to explore specific projects.
+- **Sections**: My portfolio is organized into its Project Name, you can click on these sections in the menu to explore specific projects.
 
 - **Project Details**: To view the details of a project, simply click on the project's title or description. This will take you to a dedicated page with in-depth information about the project, including its goals, technologies used, and outcomes.
 
