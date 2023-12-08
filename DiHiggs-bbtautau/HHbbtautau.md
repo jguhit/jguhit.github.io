@@ -20,9 +20,13 @@ My contributions are central to several significant improvements in the analysis
 # Results 
 
 1. ggF high-mHH region
-<p float="left">
-  <img src="ggF_bbtautau.png" width="52%" />
-  <img src="vbf_bbtautau.png" width="46%" /> 
+<p float="center">
+  <img src="hyperparam.png" width="500" height="300"/>
+  <p><em>Caption: Feynman diagram on the most dominant production modes for di-higgs production.</em></p>
+</p>
+
+<p float="center">
+   <img src="inputvar.png" width="500" height="300" /> 
   <p><em>Caption: Feynman diagram on the most dominant production modes for di-higgs production.</em></p>
 </p>
 
