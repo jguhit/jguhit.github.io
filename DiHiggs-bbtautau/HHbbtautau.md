@@ -20,18 +20,29 @@ My contributions are central to several significant improvements in the analysis
 # Results 
 
 1. ggF high-mHH region
-<p float="center">
-  <img src="hyperparam.png" width="500" height="300"/>
-  <p><em>Caption: Feynman diagram on the most dominant production modes for di-higgs production.</em></p>
-</p>
 
-<p float="center">
-   <img src="inputvar.png" width="500" height="300" /> 
-  <p><em>Caption: Feynman diagram on the most dominant production modes for di-higgs production.</em></p>
-</p>
+<div align="center">
+  <img src="hyperparam.png" alt="Hyperopt ggF high-mHH" width="500" height="400">
+  <p><em>Caption: Hyperparameter Optimization of ggF high-mHH (> 350 GeV) region.</em></p>
+</div>
+
+<div align="center">
+  <img src="inputvar.png" alt="InputVar ggF high-mHH" width="1000" height="280">
+  <p><em>Caption: Input Variable Optimization of ggF high-mHH (> 350 GeV) region.</em></p>
+</div>
 
 2. ggF low-mHH region
 
-3. VBF region
+<div align="center">
+  <img src="hyperparam_lowmhh.png" alt="Hyperopt ggF low-mHH" width="500" height="400">
+  <p><em>Caption: Hyperparameter Optimization of ggF low-mHH (< 350 GeV) region.</em></p>
+</div>
 
-4. ggF/VBF region
+<div align="center">
+  <img src="inputvar_lowmhh.png" alt="InputVar ggF low-mHH" width="1000" height="280">
+  <p><em>Caption: Input Variable Optimization of ggF low-mHH (< 350 GeV) region.</em></p>
+</div>
+
+4. VBF region
+
+5. ggF/VBF region
