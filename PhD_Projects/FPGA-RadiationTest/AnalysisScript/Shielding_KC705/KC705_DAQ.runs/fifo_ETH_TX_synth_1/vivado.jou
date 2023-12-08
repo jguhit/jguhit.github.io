@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jul 12 09:50:49 2021
+# Process ID: 12417
+# Current directory: /home/xx/work/KC705_DAQ/KC705_DAQ.runs/fifo_ETH_TX_synth_1
+# Command line: vivado -log fifo_ETH_TX.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_ETH_TX.tcl
+# Log file: /home/xx/work/KC705_DAQ/KC705_DAQ.runs/fifo_ETH_TX_synth_1/fifo_ETH_TX.vds
+# Journal file: /home/xx/work/KC705_DAQ/KC705_DAQ.runs/fifo_ETH_TX_synth_1/vivado.jou
+#-----------------------------------------------------------
+source fifo_ETH_TX.tcl -notrace
