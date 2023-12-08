@@ -51,9 +51,19 @@ My contributions are central to several significant improvements in the analysis
 </div>
 
 <div align="center">
-  <img src="inputvar_vbf.png" alt="InputVar ggF low-mHH" width="700" height="280">
+  <img src="inputvar_vbf.png" alt="InputVar VBF" width="700" height="280">
   <p><em>Caption: Input Variable Optimization of VBF region.</em></p>
 </div>
 
 
 **4. ggF/VBF region** 
+<div align="center">
+  <img src="hyperopt_ggvbf.png" alt="Hyperopt ggF-VBF" width="500" height="400">
+  <p><em>Caption: Hyperparameter Optimization of ggF-VBF region.</em></p>
+</div>
+
+<div align="center">
+  <img src="inputvar_ggfvbf.png" alt="InputVar ggF-VBF" width="600" height="380">
+  <p><em>Caption: Input Variable Optimization of ggF-VBF region.</em></p>
+</div>
+
