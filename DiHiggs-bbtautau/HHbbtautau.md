@@ -3,6 +3,11 @@ Since the discovery of the Higgs boson in 2012, a particle central to our unders
 
 A key focus of this research is exploring how Higgs bosons interact with themselves and with other particles, such as W and Z bosons. These interactions are described by specific parameters like trilinear and quartic self-couplings. Scientists measure the frequency of processes where pairs of Higgs bosons are produced - primarily through gluon fusion and vector-boson fusion - to understand these interactions. Accurate measurements of these occurrences help researchers verify if the Higgs boson behaves as our theories predict or if there are signs of new physics beyond our current understanding.
 
+<p float="left">
+  <img src="ggF_bbtautau.png" width="52%" />
+  <img src="vbf_bbtautau.png" width="46%" /> 
+</p>
+
 
 # Role in Project
 
