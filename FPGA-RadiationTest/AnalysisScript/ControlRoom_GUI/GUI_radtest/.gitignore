@@ -1,0 +1,5 @@
+*.pyc
+GUI/.idea*
+GUI/*log*.txt
+GUI/test_data/*
+

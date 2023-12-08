@@ -1,0 +1,1584 @@
+2021-08-05 17:49:09>>updating CC control: CMD=0000 config_back=0 use_ETH_CMD=1 global_rst=0
+2021-08-05 17:49:11>>Start to loop jtag randomly!
+2021-08-05 17:49:11>>JTAG daisy chain now = 101110010001011000
+2021-08-05 17:49:15>>Monitoring error counters!
+2021-08-05 17:49:15>>Received 1 packets!
+2021-08-05 17:49:15>>design number changed to 4
+2021-08-05 17:49:15>>Multiboot count=0
+2021-08-05 17:49:15>>TTCin_err_reg_5=0
+2021-08-05 17:49:15>>TTCin_err_reg_4=0
+2021-08-05 17:49:15>>TTCin_err_reg_3=0
+2021-08-05 17:49:15>>TTCin_err_reg_2=0
+2021-08-05 17:49:15>>TTCin_err_reg_1=0
+2021-08-05 17:49:15>>TTCin_err_reg_0=0
+2021-08-05 17:49:15>>TCK_err_reg_17=0
+2021-08-05 17:49:15>>TCK_err_reg_16=0
+2021-08-05 17:49:15>>TCK_err_reg_15=0
+2021-08-05 17:49:15>>TCK_err_reg_14=0
+2021-08-05 17:49:15>>TCK_err_reg_13=0
+2021-08-05 17:49:15>>TCK_err_reg_12=0
+2021-08-05 17:49:15>>TCK_err_reg_11=0
+2021-08-05 17:49:15>>TCK_err_reg_10=0
+2021-08-05 17:49:15>>TCK_err_reg_9=0
+2021-08-05 17:49:15>>TCK_err_reg_8=0
+2021-08-05 17:49:15>>TCK_err_reg_7=0
+2021-08-05 17:49:15>>TCK_err_reg_6=0
+2021-08-05 17:49:15>>TCK_err_reg_5=0
+2021-08-05 17:49:15>>TCK_err_reg_4=0
+2021-08-05 17:49:15>>TCK_err_reg_3=0
+2021-08-05 17:49:15>>TCK_err_reg_2=0
+2021-08-05 17:49:15>>TCK_err_reg_1=0
+2021-08-05 17:49:15>>TCK_err_reg_0=0
+2021-08-05 17:49:15>>TMS_err_reg_17=0
+2021-08-05 17:49:15>>TMS_err_reg_16=0
+2021-08-05 17:49:15>>TMS_err_reg_15=0
+2021-08-05 17:49:15>>TMS_err_reg_14=0
+2021-08-05 17:49:15>>TMS_err_reg_13=0
+2021-08-05 17:49:15>>TMS_err_reg_12=0
+2021-08-05 17:49:15>>TMS_err_reg_11=0
+2021-08-05 17:49:15>>TMS_err_reg_10=0
+2021-08-05 17:49:15>>TMS_err_reg_9=0
+2021-08-05 17:49:15>>TMS_err_reg_8=0
+2021-08-05 17:49:15>>TMS_err_reg_7=0
+2021-08-05 17:49:15>>TMS_err_reg_6=0
+2021-08-05 17:49:15>>TMS_err_reg_5=0
+2021-08-05 17:49:15>>TMS_err_reg_4=0
+2021-08-05 17:49:15>>TMS_err_reg_3=0
+2021-08-05 17:49:15>>TMS_err_reg_2=0
+2021-08-05 17:49:15>>TMS_err_reg_1=0
+2021-08-05 17:49:15>>TMS_err_reg_0=0
+2021-08-05 17:49:15>>TDO_err_reg=0
+2021-08-05 17:49:16>>Received 2 packets!
+2021-08-05 17:49:16>>Received 3 packets!
+2021-08-05 17:49:17>>Received 4 packets!
+2021-08-05 17:49:17>>Received 5 packets!
+2021-08-05 17:49:18>>Received 6 packets!
+2021-08-05 17:49:18>>Received 7 packets!
+2021-08-05 17:49:19>>Received 8 packets!
+2021-08-05 17:49:19>>Received 9 packets!
+2021-08-05 17:49:20>>Received 10 packets!
+2021-08-05 17:49:25>>Received 20 packets!
+2021-08-05 17:49:30>>Received 30 packets!
+2021-08-05 17:49:36>>Received 40 packets!
+2021-08-05 17:49:41>>Received 50 packets!
+2021-08-05 17:49:46>>Received 60 packets!
+2021-08-05 17:49:51>>Received 70 packets!
+2021-08-05 17:49:57>>Received 80 packets!
+2021-08-05 17:50:02>>Received 90 packets!
+2021-08-05 17:50:07>>Received 100 packets!
+2021-08-05 17:51:00>>Received 200 packets!
+2021-08-05 17:51:52>>Received 300 packets!
+2021-08-05 17:52:44>>Received 400 packets!
+2021-08-05 17:53:37>>Received 500 packets!
+2021-08-05 17:54:11>>JTAG daisy chain now = 000001111010001011
+2021-08-05 17:54:29>>Received 600 packets!
+2021-08-05 17:55:22>>Received 700 packets!
+2021-08-05 17:56:14>>Received 800 packets!
+2021-08-05 17:57:07>>Received 900 packets!
+2021-08-05 17:57:59>>Received 1000 packets!
+2021-08-05 17:58:51>>Received 1100 packets!
+2021-08-05 17:59:11>>JTAG daisy chain now = 011001111100100001
+2021-08-05 17:59:44>>Received 1200 packets!
+2021-08-05 18:00:36>>Received 1300 packets!
+2021-08-05 18:01:29>>Received 1400 packets!
+2021-08-05 18:02:21>>Received 1500 packets!
+2021-08-05 18:03:14>>Received 1600 packets!
+2021-08-05 18:04:06>>Received 1700 packets!
+2021-08-05 18:04:11>>JTAG daisy chain now = 110111000101000000
+2021-08-05 18:04:58>>Received 1800 packets!
+2021-08-05 18:05:51>>Received 1900 packets!
+2021-08-05 18:06:43>>Received 2000 packets!
+2021-08-05 18:07:36>>Received 2100 packets!
+2021-08-05 18:08:28>>Received 2200 packets!
+2021-08-05 18:09:11>>JTAG daisy chain now = 000010011010100111
+2021-08-05 18:09:21>>Received 2300 packets!
+2021-08-05 18:10:13>>Received 2400 packets!
+2021-08-05 18:11:05>>Received 2500 packets!
+2021-08-05 18:11:58>>Received 2600 packets!
+2021-08-05 18:12:50>>Received 2700 packets!
+2021-08-05 18:13:43>>Received 2800 packets!
+2021-08-05 18:14:11>>JTAG daisy chain now = 011111111111001110
+2021-08-05 18:14:35>>Received 2900 packets!
+2021-08-05 18:15:28>>Received 3000 packets!
+2021-08-05 18:16:20>>Received 3100 packets!
+2021-08-05 18:17:12>>Received 3200 packets!
+2021-08-05 18:18:05>>Received 3300 packets!
+2021-08-05 18:18:57>>Received 3400 packets!
+2021-08-05 18:19:11>>JTAG daisy chain now = 001110010000000011
+2021-08-05 18:19:50>>Received 3500 packets!
+2021-08-05 18:20:42>>Received 3600 packets!
+2021-08-05 18:21:35>>Received 3700 packets!
+2021-08-05 18:22:27>>Received 3800 packets!
+2021-08-05 18:23:19>>Received 3900 packets!
+2021-08-05 18:24:11>>JTAG daisy chain now = 001111010010010100
+2021-08-05 18:24:12>>Received 4000 packets!
+2021-08-05 18:25:04>>Received 4100 packets!
+2021-08-05 18:25:57>>Received 4200 packets!
+2021-08-05 18:26:49>>Received 4300 packets!
+2021-08-05 18:27:42>>Received 4400 packets!
+2021-08-05 18:28:34>>Received 4500 packets!
+2021-08-05 18:29:11>>JTAG daisy chain now = 110000001111010111
+2021-08-05 18:29:26>>Received 4600 packets!
+2021-08-05 18:30:19>>Received 4700 packets!
+2021-08-05 18:31:11>>Received 4800 packets!
+2021-08-05 18:32:04>>Received 4900 packets!
+2021-08-05 18:32:56>>Received 5000 packets!
+2021-08-05 18:33:48>>Received 5100 packets!
+2021-08-05 18:34:11>>JTAG daisy chain now = 000010001111100111
+2021-08-05 18:34:41>>Received 5200 packets!
+2021-08-05 18:35:33>>Received 5300 packets!
+2021-08-05 18:36:26>>Received 5400 packets!
+2021-08-05 18:37:18>>Received 5500 packets!
+2021-08-05 18:38:11>>Received 5600 packets!
+2021-08-05 18:39:03>>Received 5700 packets!
+2021-08-05 18:39:11>>JTAG daisy chain now = 001010000001010000
+2021-08-05 18:39:55>>Received 5800 packets!
+2021-08-05 18:40:48>>Received 5900 packets!
+2021-08-05 18:41:40>>Received 6000 packets!
+2021-08-05 18:42:33>>Received 6100 packets!
+2021-08-05 18:43:25>>Received 6200 packets!
+2021-08-05 18:44:11>>JTAG daisy chain now = 011110111100101010
+2021-08-05 18:44:18>>Received 6300 packets!
+2021-08-05 18:45:10>>Received 6400 packets!
+2021-08-05 18:46:02>>Received 6500 packets!
+2021-08-05 18:46:55>>Received 6600 packets!
+2021-08-05 18:47:47>>Received 6700 packets!
+2021-08-05 18:48:40>>Received 6800 packets!
+2021-08-05 18:49:11>>JTAG daisy chain now = 110011010011011100
+2021-08-05 18:49:32>>Received 6900 packets!
+2021-08-05 18:50:25>>Received 7000 packets!
+2021-08-05 18:51:17>>Received 7100 packets!
+2021-08-05 18:52:09>>Received 7200 packets!
+2021-08-05 18:53:02>>Received 7300 packets!
+2021-08-05 18:53:54>>Received 7400 packets!
+2021-08-05 18:54:12>>JTAG daisy chain now = 111111100001000110
+2021-08-05 18:54:47>>Received 7500 packets!
+2021-08-05 18:55:39>>Received 7600 packets!
+2021-08-05 18:56:32>>Received 7700 packets!
+2021-08-05 18:57:24>>Received 7800 packets!
+2021-08-05 18:58:16>>Received 7900 packets!
+2021-08-05 18:59:09>>Received 8000 packets!
+2021-08-05 18:59:12>>JTAG daisy chain now = 000100000100101101
+2021-08-05 19:00:01>>Received 8100 packets!
+2021-08-05 19:00:54>>Received 8200 packets!
+2021-08-05 19:01:46>>Received 8300 packets!
+2021-08-05 19:02:39>>Received 8400 packets!
+2021-08-05 19:03:31>>Received 8500 packets!
+2021-08-05 19:04:12>>JTAG daisy chain now = 110111110100000110
+2021-08-05 19:04:23>>Received 8600 packets!
+2021-08-05 19:05:16>>Received 8700 packets!
+2021-08-05 19:06:08>>Received 8800 packets!
+2021-08-05 19:07:01>>Received 8900 packets!
+2021-08-05 19:07:53>>Received 9000 packets!
+2021-08-05 19:08:46>>Received 9100 packets!
+2021-08-05 19:09:12>>JTAG daisy chain now = 111111010011010110
+2021-08-05 19:09:38>>Received 9200 packets!
+2021-08-05 19:10:30>>Received 9300 packets!
+2021-08-05 19:11:23>>Received 9400 packets!
+2021-08-05 19:12:15>>Received 9500 packets!
+2021-08-05 19:13:08>>Received 9600 packets!
+2021-08-05 19:14:00>>Received 9700 packets!
+2021-08-05 19:14:12>>JTAG daisy chain now = 110110000001100100
+2021-08-05 19:14:53>>Received 9800 packets!
+2021-08-05 19:15:45>>Received 9900 packets!
+2021-08-05 19:16:37>>Received 10000 packets!
+2021-08-05 19:17:30>>Received 10100 packets!
+2021-08-05 19:18:22>>Received 10200 packets!
+2021-08-05 19:19:12>>JTAG daisy chain now = 111011010001100101
+2021-08-05 19:19:15>>Received 10300 packets!
+2021-08-05 19:20:07>>Received 10400 packets!
+2021-08-05 19:21:00>>Received 10500 packets!
+2021-08-05 19:21:52>>Received 10600 packets!
+2021-08-05 19:22:44>>Received 10700 packets!
+2021-08-05 19:23:37>>Received 10800 packets!
+2021-08-05 19:24:12>>JTAG daisy chain now = 010110000000000101
+2021-08-05 19:24:29>>Received 10900 packets!
+2021-08-05 19:25:22>>Received 11000 packets!
+2021-08-05 19:26:14>>Received 11100 packets!
+2021-08-05 19:27:07>>Received 11200 packets!
+2021-08-05 19:27:59>>Received 11300 packets!
+2021-08-05 19:28:51>>Received 11400 packets!
+2021-08-05 19:29:12>>JTAG daisy chain now = 101100011111110011
+2021-08-05 19:29:44>>Received 11500 packets!
+2021-08-05 19:30:36>>Received 11600 packets!
+2021-08-05 19:31:29>>Received 11700 packets!
+2021-08-05 19:32:21>>Received 11800 packets!
+2021-08-05 19:33:14>>Received 11900 packets!
+2021-08-05 19:34:06>>Received 12000 packets!
+2021-08-05 19:34:12>>JTAG daisy chain now = 010011110101011111
+2021-08-05 19:34:58>>Received 12100 packets!
+2021-08-05 19:35:51>>Received 12200 packets!
+2021-08-05 19:36:43>>Received 12300 packets!
+2021-08-05 19:37:36>>Received 12400 packets!
+2021-08-05 19:38:28>>Received 12500 packets!
+2021-08-05 19:39:12>>JTAG daisy chain now = 100010110000010011
+2021-08-05 19:39:21>>Received 12600 packets!
+2021-08-05 19:40:13>>Received 12700 packets!
+2021-08-05 19:41:05>>Received 12800 packets!
+2021-08-05 19:41:58>>Received 12900 packets!
+2021-08-05 19:42:50>>Received 13000 packets!
+2021-08-05 19:43:43>>Received 13100 packets!
+2021-08-05 19:44:12>>JTAG daisy chain now = 011100100111010001
+2021-08-05 19:44:35>>Received 13200 packets!
+2021-08-05 19:45:28>>Received 13300 packets!
+2021-08-05 19:46:20>>Received 13400 packets!
+2021-08-05 19:47:12>>Received 13500 packets!
+2021-08-05 19:48:05>>Received 13600 packets!
+2021-08-05 19:48:57>>Received 13700 packets!
+2021-08-05 19:49:12>>JTAG daisy chain now = 000100111011001101
+2021-08-05 19:49:50>>Received 13800 packets!
+2021-08-05 19:50:42>>Received 13900 packets!
+2021-08-05 19:51:34>>Received 14000 packets!
+2021-08-05 19:52:27>>Received 14100 packets!
+2021-08-05 19:53:19>>Received 14200 packets!
+2021-08-05 19:54:12>>Received 14300 packets!
+2021-08-05 19:54:13>>JTAG daisy chain now = 100011100001111111
+2021-08-05 19:55:04>>Received 14400 packets!
+2021-08-05 19:55:57>>Received 14500 packets!
+2021-08-05 19:56:49>>Received 14600 packets!
+2021-08-05 19:57:41>>Received 14700 packets!
+2021-08-05 19:58:34>>Received 14800 packets!
+2021-08-05 19:59:13>>JTAG daisy chain now = 011101011100000110
+2021-08-05 19:59:26>>Received 14900 packets!
+2021-08-05 20:00:19>>Received 15000 packets!
+2021-08-05 20:01:11>>Received 15100 packets!
+2021-08-05 20:02:04>>Received 15200 packets!
+2021-08-05 20:02:56>>Received 15300 packets!
+2021-08-05 20:03:48>>Received 15400 packets!
+2021-08-05 20:04:13>>JTAG daisy chain now = 000110010100101011
+2021-08-05 20:04:41>>Received 15500 packets!
+2021-08-05 20:05:33>>Received 15600 packets!
+2021-08-05 20:06:26>>Received 15700 packets!
+2021-08-05 20:07:18>>Received 15800 packets!
+2021-08-05 20:08:11>>Received 15900 packets!
+2021-08-05 20:09:03>>Received 16000 packets!
+2021-08-05 20:09:13>>JTAG daisy chain now = 010110000000010001
+2021-08-05 20:09:55>>Received 16100 packets!
+2021-08-05 20:10:48>>Received 16200 packets!
+2021-08-05 20:11:40>>Received 16300 packets!
+2021-08-05 20:12:33>>Received 16400 packets!
+2021-08-05 20:13:25>>Received 16500 packets!
+2021-08-05 20:14:13>>JTAG daisy chain now = 101011100100100111
+2021-08-05 20:14:18>>Received 16600 packets!
+2021-08-05 20:15:10>>Received 16700 packets!
+2021-08-05 20:16:02>>Received 16800 packets!
+2021-08-05 20:16:55>>Received 16900 packets!
+2021-08-05 20:17:47>>Received 17000 packets!
+2021-08-05 20:18:40>>Received 17100 packets!
+2021-08-05 20:19:13>>JTAG daisy chain now = 010111101111000000
+2021-08-05 20:19:32>>Received 17200 packets!
+2021-08-05 20:20:25>>Received 17300 packets!
+2021-08-05 20:21:17>>Received 17400 packets!
+2021-08-05 20:22:09>>Received 17500 packets!
+2021-08-05 20:23:02>>Received 17600 packets!
+2021-08-05 20:23:54>>Received 17700 packets!
+2021-08-05 20:24:13>>JTAG daisy chain now = 011010110010110000
+2021-08-05 20:24:47>>Received 17800 packets!
+2021-08-05 20:25:39>>Received 17900 packets!
+2021-08-05 20:26:32>>Received 18000 packets!
+2021-08-05 20:27:24>>Received 18100 packets!
+2021-08-05 20:28:16>>Received 18200 packets!
+2021-08-05 20:29:09>>Received 18300 packets!
+2021-08-05 20:29:13>>JTAG daisy chain now = 011111101110111110
+2021-08-05 20:30:01>>Received 18400 packets!
+2021-08-05 20:30:54>>Received 18500 packets!
+2021-08-05 20:31:46>>Received 18600 packets!
+2021-08-05 20:32:39>>Received 18700 packets!
+2021-08-05 20:33:31>>Received 18800 packets!
+2021-08-05 20:34:13>>JTAG daisy chain now = 001000010101001101
+2021-08-05 20:34:23>>Received 18900 packets!
+2021-08-05 20:35:16>>Received 19000 packets!
+2021-08-05 20:36:08>>Received 19100 packets!
+2021-08-05 20:37:01>>Received 19200 packets!
+2021-08-05 20:37:53>>Received 19300 packets!
+2021-08-05 20:38:46>>Received 19400 packets!
+2021-08-05 20:39:13>>JTAG daisy chain now = 001110110110111001
+2021-08-05 20:39:38>>Received 19500 packets!
+2021-08-05 20:40:30>>Received 19600 packets!
+2021-08-05 20:41:23>>Received 19700 packets!
+2021-08-05 20:42:15>>Received 19800 packets!
+2021-08-05 20:43:08>>Received 19900 packets!
+2021-08-05 20:44:00>>Received 20000 packets!
+2021-08-05 20:44:13>>JTAG daisy chain now = 000110100100110010
+2021-08-05 20:44:53>>Received 20100 packets!
+2021-08-05 20:45:45>>Received 20200 packets!
+2021-08-05 20:46:37>>Received 20300 packets!
+2021-08-05 20:47:30>>Received 20400 packets!
+2021-08-05 20:48:22>>Received 20500 packets!
+2021-08-05 20:49:13>>JTAG daisy chain now = 101010001111110111
+2021-08-05 20:49:15>>Received 20600 packets!
+2021-08-05 20:50:07>>Received 20700 packets!
+2021-08-05 20:51:00>>Received 20800 packets!
+2021-08-05 20:51:52>>Received 20900 packets!
+2021-08-05 20:52:44>>Received 21000 packets!
+2021-08-05 20:53:37>>Received 21100 packets!
+2021-08-05 20:54:14>>JTAG daisy chain now = 100011111111011101
+2021-08-05 20:54:29>>Received 21200 packets!
+2021-08-05 20:55:22>>Received 21300 packets!
+2021-08-05 20:56:14>>Received 21400 packets!
+2021-08-05 20:57:07>>Received 21500 packets!
+2021-08-05 20:57:59>>Received 21600 packets!
+2021-08-05 20:58:51>>Received 21700 packets!
+2021-08-05 20:59:14>>JTAG daisy chain now = 110100001100100010
+2021-08-05 20:59:44>>Received 21800 packets!
+2021-08-05 21:00:36>>Received 21900 packets!
+2021-08-05 21:01:29>>Received 22000 packets!
+2021-08-05 21:02:21>>Received 22100 packets!
+2021-08-05 21:03:14>>Received 22200 packets!
+2021-08-05 21:04:06>>Received 22300 packets!
+2021-08-05 21:04:14>>JTAG daisy chain now = 001000010111010111
+2021-08-05 21:04:58>>Received 22400 packets!
+2021-08-05 21:05:51>>Received 22500 packets!
+2021-08-05 21:06:43>>Received 22600 packets!
+2021-08-05 21:07:36>>Received 22700 packets!
+2021-08-05 21:08:28>>Received 22800 packets!
+2021-08-05 21:09:14>>JTAG daisy chain now = 100110111110001000
+2021-08-05 21:09:21>>Received 22900 packets!
+2021-08-05 21:10:13>>Received 23000 packets!
+2021-08-05 21:11:05>>Received 23100 packets!
+2021-08-05 21:11:58>>Received 23200 packets!
+2021-08-05 21:12:50>>Received 23300 packets!
+2021-08-05 21:13:43>>Received 23400 packets!
+2021-08-05 21:14:14>>JTAG daisy chain now = 001000010011001011
+2021-08-05 21:14:35>>Received 23500 packets!
+2021-08-05 21:15:27>>Received 23600 packets!
+2021-08-05 21:16:20>>Received 23700 packets!
+2021-08-05 21:17:12>>Received 23800 packets!
+2021-08-05 21:18:05>>Received 23900 packets!
+2021-08-05 21:18:57>>Received 24000 packets!
+2021-08-05 21:19:14>>JTAG daisy chain now = 101110000011110010
+2021-08-05 21:19:50>>Received 24100 packets!
+2021-08-05 21:20:42>>Received 24200 packets!
+2021-08-05 21:21:34>>Received 24300 packets!
+2021-08-05 21:22:27>>Received 24400 packets!
+2021-08-05 21:23:19>>Received 24500 packets!
+2021-08-05 21:24:12>>Received 24600 packets!
+2021-08-05 21:24:14>>JTAG daisy chain now = 011110001011010011
+2021-08-05 21:25:04>>Received 24700 packets!
+2021-08-05 21:25:57>>Received 24800 packets!
+2021-08-05 21:26:49>>Received 24900 packets!
+2021-08-05 21:27:41>>Received 25000 packets!
+2021-08-05 21:28:34>>Received 25100 packets!
+2021-08-05 21:29:14>>JTAG daisy chain now = 100001110101100110
+2021-08-05 21:29:26>>Received 25200 packets!
+2021-08-05 21:30:19>>Received 25300 packets!
+2021-08-05 21:31:11>>Received 25400 packets!
+2021-08-05 21:32:04>>Received 25500 packets!
+2021-08-05 21:32:56>>Received 25600 packets!
+2021-08-05 21:33:48>>Received 25700 packets!
+2021-08-05 21:34:14>>JTAG daisy chain now = 110111011100101110
+2021-08-05 21:34:41>>Received 25800 packets!
+2021-08-05 21:35:33>>Received 25900 packets!
+2021-08-05 21:36:26>>Received 26000 packets!
+2021-08-05 21:37:18>>Received 26100 packets!
+2021-08-05 21:38:11>>Received 26200 packets!
+2021-08-05 21:39:03>>Received 26300 packets!
+2021-08-05 21:39:14>>JTAG daisy chain now = 101010001100101011
+2021-08-05 21:39:55>>Received 26400 packets!
+2021-08-05 21:40:48>>Received 26500 packets!
+2021-08-05 21:41:40>>Received 26600 packets!
+2021-08-05 21:42:33>>Received 26700 packets!
+2021-08-05 21:43:25>>Received 26800 packets!
+2021-08-05 21:44:14>>JTAG daisy chain now = 111111011101010010
+2021-08-05 21:44:18>>Received 26900 packets!
+2021-08-05 21:45:10>>Received 27000 packets!
+2021-08-05 21:46:02>>Received 27100 packets!
+2021-08-05 21:46:55>>Received 27200 packets!
+2021-08-05 21:47:47>>Received 27300 packets!
+2021-08-05 21:48:40>>Received 27400 packets!
+2021-08-05 21:49:15>>JTAG daisy chain now = 110010010100010110
+2021-08-05 21:49:32>>Received 27500 packets!
+2021-08-05 21:50:25>>Received 27600 packets!
+2021-08-05 21:51:17>>Received 27700 packets!
+2021-08-05 21:52:09>>Received 27800 packets!
+2021-08-05 21:53:02>>Received 27900 packets!
+2021-08-05 21:53:54>>Received 28000 packets!
+2021-08-05 21:54:15>>JTAG daisy chain now = 100000110100010100
+2021-08-05 21:54:47>>Received 28100 packets!
+2021-08-05 21:55:39>>Received 28200 packets!
+2021-08-05 21:56:32>>Received 28300 packets!
+2021-08-05 21:57:24>>Received 28400 packets!
+2021-08-05 21:58:16>>Received 28500 packets!
+2021-08-05 21:59:09>>Received 28600 packets!
+2021-08-05 21:59:15>>JTAG daisy chain now = 000010111010001011
+2021-08-05 22:00:01>>Received 28700 packets!
+2021-08-05 22:00:54>>Received 28800 packets!
+2021-08-05 22:01:46>>Received 28900 packets!
+2021-08-05 22:02:39>>Received 29000 packets!
+2021-08-05 22:03:31>>Received 29100 packets!
+2021-08-05 22:04:15>>JTAG daisy chain now = 100000111011011100
+2021-08-05 22:04:23>>Received 29200 packets!
+2021-08-05 22:05:16>>Received 29300 packets!
+2021-08-05 22:06:08>>Received 29400 packets!
+2021-08-05 22:07:01>>Received 29500 packets!
+2021-08-05 22:07:53>>Received 29600 packets!
+2021-08-05 22:08:46>>Received 29700 packets!
+2021-08-05 22:09:15>>JTAG daisy chain now = 000111110001101011
+2021-08-05 22:09:38>>Received 29800 packets!
+2021-08-05 22:10:30>>Received 29900 packets!
+2021-08-05 22:11:23>>Received 30000 packets!
+2021-08-05 22:12:15>>Received 30100 packets!
+2021-08-05 22:13:08>>Received 30200 packets!
+2021-08-05 22:14:00>>Received 30300 packets!
+2021-08-05 22:14:15>>JTAG daisy chain now = 111000011011110100
+2021-08-05 22:14:53>>Received 30400 packets!
+2021-08-05 22:15:45>>Received 30500 packets!
+2021-08-05 22:16:37>>Received 30600 packets!
+2021-08-05 22:17:30>>Received 30700 packets!
+2021-08-05 22:18:22>>Received 30800 packets!
+2021-08-05 22:19:15>>Received 30900 packets!
+2021-08-05 22:19:15>>JTAG daisy chain now = 001000001011100101
+2021-08-05 22:20:07>>Received 31000 packets!
+2021-08-05 22:21:00>>Received 31100 packets!
+2021-08-05 22:21:52>>Received 31200 packets!
+2021-08-05 22:22:44>>Received 31300 packets!
+2021-08-05 22:23:37>>Received 31400 packets!
+2021-08-05 22:24:15>>JTAG daisy chain now = 110001000111001100
+2021-08-05 22:24:29>>Received 31500 packets!
+2021-08-05 22:25:22>>Received 31600 packets!
+2021-08-05 22:26:14>>Received 31700 packets!
+2021-08-05 22:27:07>>Received 31800 packets!
+2021-08-05 22:27:59>>Received 31900 packets!
+2021-08-05 22:28:51>>Received 32000 packets!
+2021-08-05 22:29:15>>JTAG daisy chain now = 010100111011100100
+2021-08-05 22:29:44>>Received 32100 packets!
+2021-08-05 22:30:36>>Received 32200 packets!
+2021-08-05 22:31:29>>Received 32300 packets!
+2021-08-05 22:32:21>>Received 32400 packets!
+2021-08-05 22:33:14>>Received 32500 packets!
+2021-08-05 22:34:06>>Received 32600 packets!
+2021-08-05 22:34:15>>JTAG daisy chain now = 000010011100101101
+2021-08-05 22:34:58>>Received 32700 packets!
+2021-08-05 22:35:51>>Received 32800 packets!
+2021-08-05 22:36:43>>Received 32900 packets!
+2021-08-05 22:37:36>>Received 33000 packets!
+2021-08-05 22:38:28>>Received 33100 packets!
+2021-08-05 22:39:15>>JTAG daisy chain now = 111010111111010110
+2021-08-05 22:39:20>>Received 33200 packets!
+2021-08-05 22:40:13>>Received 33300 packets!
+2021-08-05 22:41:05>>Received 33400 packets!
+2021-08-05 22:41:58>>Received 33500 packets!
+2021-08-05 22:42:50>>Received 33600 packets!
+2021-08-05 22:43:43>>Received 33700 packets!
+2021-08-05 22:44:15>>JTAG daisy chain now = 010000001101111011
+2021-08-05 22:44:35>>Received 33800 packets!
+2021-08-05 22:45:27>>Received 33900 packets!
+2021-08-05 22:46:20>>Received 34000 packets!
+2021-08-05 22:47:12>>Received 34100 packets!
+2021-08-05 22:48:05>>Received 34200 packets!
+2021-08-05 22:48:57>>Received 34300 packets!
+2021-08-05 22:49:15>>JTAG daisy chain now = 000111001101100011
+2021-08-05 22:49:50>>Received 34400 packets!
+2021-08-05 22:50:42>>Received 34500 packets!
+2021-08-05 22:51:34>>Received 34600 packets!
+2021-08-05 22:52:27>>Received 34700 packets!
+2021-08-05 22:53:19>>Received 34800 packets!
+2021-08-05 22:54:12>>Received 34900 packets!
+2021-08-05 22:54:16>>JTAG daisy chain now = 010100100111110010
+2021-08-05 22:55:04>>Received 35000 packets!
+2021-08-05 22:55:57>>Received 35100 packets!
+2021-08-05 22:56:49>>Received 35200 packets!
+2021-08-05 22:57:41>>Received 35300 packets!
+2021-08-05 22:58:34>>Received 35400 packets!
+2021-08-05 22:59:16>>JTAG daisy chain now = 000001010011000111
+2021-08-05 22:59:26>>Received 35500 packets!
+2021-08-05 23:00:19>>Received 35600 packets!
+2021-08-05 23:01:11>>Received 35700 packets!
+2021-08-05 23:02:04>>Received 35800 packets!
+2021-08-05 23:02:56>>Received 35900 packets!
+2021-08-05 23:03:48>>Received 36000 packets!
+2021-08-05 23:04:16>>JTAG daisy chain now = 100000110101110110
+2021-08-05 23:04:41>>Received 36100 packets!
+2021-08-05 23:05:33>>Received 36200 packets!
+2021-08-05 23:06:26>>Received 36300 packets!
+2021-08-05 23:07:18>>Received 36400 packets!
+2021-08-05 23:08:11>>Received 36500 packets!
+2021-08-05 23:09:03>>Received 36600 packets!
+2021-08-05 23:09:16>>JTAG daisy chain now = 100111111000111101
+2021-08-05 23:09:55>>Received 36700 packets!
+2021-08-05 23:10:48>>Received 36800 packets!
+2021-08-05 23:11:40>>Received 36900 packets!
+2021-08-05 23:12:33>>Received 37000 packets!
+2021-08-05 23:13:25>>Received 37100 packets!
+2021-08-05 23:14:16>>JTAG daisy chain now = 011101101011100001
+2021-08-05 23:14:18>>Received 37200 packets!
+2021-08-05 23:15:10>>Received 37300 packets!
+2021-08-05 23:16:02>>Received 37400 packets!
+2021-08-05 23:16:55>>Received 37500 packets!
+2021-08-05 23:17:47>>Received 37600 packets!
+2021-08-05 23:18:40>>Received 37700 packets!
+2021-08-05 23:19:16>>JTAG daisy chain now = 101110101111001101
+2021-08-05 23:19:32>>Received 37800 packets!
+2021-08-05 23:20:25>>Received 37900 packets!
+2021-08-05 23:21:18>>Received 38000 packets!
+2021-08-05 23:22:10>>Received 38100 packets!
+2021-08-05 23:23:02>>Received 38200 packets!
+2021-08-05 23:23:55>>Received 38300 packets!
+2021-08-05 23:24:16>>JTAG daisy chain now = 010101111110000010
+2021-08-05 23:24:47>>Received 38400 packets!
+2021-08-05 23:25:40>>Received 38500 packets!
+2021-08-05 23:26:32>>Received 38600 packets!
+2021-08-05 23:27:25>>Received 38700 packets!
+2021-08-05 23:28:17>>Received 38800 packets!
+2021-08-05 23:29:09>>Received 38900 packets!
+2021-08-05 23:29:16>>JTAG daisy chain now = 010010111001110000
+2021-08-05 23:30:02>>Received 39000 packets!
+2021-08-05 23:30:54>>Received 39100 packets!
+2021-08-05 23:31:47>>Received 39200 packets!
+2021-08-05 23:32:39>>Received 39300 packets!
+2021-08-05 23:33:32>>Received 39400 packets!
+2021-08-05 23:34:16>>JTAG daisy chain now = 001011001011011011
+2021-08-05 23:34:24>>Received 39500 packets!
+2021-08-05 23:35:16>>Received 39600 packets!
+2021-08-05 23:36:09>>Received 39700 packets!
+2021-08-05 23:37:01>>Received 39800 packets!
+2021-08-05 23:37:54>>Received 39900 packets!
+2021-08-05 23:38:46>>Received 40000 packets!
+2021-08-05 23:39:16>>JTAG daisy chain now = 011100111010101000
+2021-08-05 23:39:38>>Received 40100 packets!
+2021-08-05 23:40:31>>Received 40200 packets!
+2021-08-05 23:41:23>>Received 40300 packets!
+2021-08-05 23:42:16>>Received 40400 packets!
+2021-08-05 23:43:08>>Received 40500 packets!
+2021-08-05 23:44:01>>Received 40600 packets!
+2021-08-05 23:44:16>>JTAG daisy chain now = 001110010001010011
+2021-08-05 23:44:53>>Received 40700 packets!
+2021-08-05 23:45:45>>Received 40800 packets!
+2021-08-05 23:46:38>>Received 40900 packets!
+2021-08-05 23:47:30>>Received 41000 packets!
+2021-08-05 23:48:23>>Received 41100 packets!
+2021-08-05 23:49:15>>Received 41200 packets!
+2021-08-05 23:49:16>>JTAG daisy chain now = 001100011011101110
+2021-08-05 23:50:08>>Received 41300 packets!
+2021-08-05 23:51:00>>Received 41400 packets!
+2021-08-05 23:51:52>>Received 41500 packets!
+2021-08-05 23:52:45>>Received 41600 packets!
+2021-08-05 23:53:37>>Received 41700 packets!
+2021-08-05 23:54:16>>JTAG daisy chain now = 111011001111101101
+2021-08-05 23:54:30>>Received 41800 packets!
+2021-08-05 23:55:22>>Received 41900 packets!
+2021-08-05 23:56:15>>Received 42000 packets!
+2021-08-05 23:57:07>>Received 42100 packets!
+2021-08-05 23:57:59>>Received 42200 packets!
+2021-08-05 23:58:52>>Received 42300 packets!
+2021-08-05 23:59:16>>JTAG daisy chain now = 100110100100110000
+2021-08-05 23:59:44>>Received 42400 packets!
+2021-08-06 00:00:37>>Received 42500 packets!
+2021-08-06 00:01:29>>Received 42600 packets!
+2021-08-06 00:02:22>>Received 42700 packets!
+2021-08-06 00:03:14>>Received 42800 packets!
+2021-08-06 00:04:06>>Received 42900 packets!
+2021-08-06 00:04:16>>JTAG daisy chain now = 000010011011010001
+2021-08-06 00:04:59>>Received 43000 packets!
+2021-08-06 00:05:51>>Received 43100 packets!
+2021-08-06 00:06:44>>Received 43200 packets!
+2021-08-06 00:07:36>>Received 43300 packets!
+2021-08-06 00:08:29>>Received 43400 packets!
+2021-08-06 00:09:16>>JTAG daisy chain now = 011011000010100100
+2021-08-06 00:09:21>>Received 43500 packets!
+2021-08-06 00:10:13>>Received 43600 packets!
+2021-08-06 00:11:06>>Received 43700 packets!
+2021-08-06 00:11:58>>Received 43800 packets!
+2021-08-06 00:12:51>>Received 43900 packets!
+2021-08-06 00:13:43>>Received 44000 packets!
+2021-08-06 00:14:17>>JTAG daisy chain now = 111011100001011001
+2021-08-06 00:14:36>>Received 44100 packets!
+2021-08-06 00:15:28>>Received 44200 packets!
+2021-08-06 00:16:20>>Received 44300 packets!
+2021-08-06 00:17:13>>Received 44400 packets!
+2021-08-06 00:18:05>>Received 44500 packets!
+2021-08-06 00:18:58>>Received 44600 packets!
+2021-08-06 00:19:17>>JTAG daisy chain now = 010000000011101011
+2021-08-06 00:19:50>>Received 44700 packets!
+2021-08-06 00:20:43>>Received 44800 packets!
+2021-08-06 00:21:35>>Received 44900 packets!
+2021-08-06 00:22:27>>Received 45000 packets!
+2021-08-06 00:23:20>>Received 45100 packets!
+2021-08-06 00:24:12>>Received 45200 packets!
+2021-08-06 00:24:17>>JTAG daisy chain now = 000111011110100110
+2021-08-06 00:25:05>>Received 45300 packets!
+2021-08-06 00:25:57>>Received 45400 packets!
+2021-08-06 00:26:50>>Received 45500 packets!
+2021-08-06 00:27:42>>Received 45600 packets!
+2021-08-06 00:28:34>>Received 45700 packets!
+2021-08-06 00:29:17>>JTAG daisy chain now = 010010011011110101
+2021-08-06 00:29:27>>Received 45800 packets!
+2021-08-06 00:30:19>>Received 45900 packets!
+2021-08-06 00:31:12>>Received 46000 packets!
+2021-08-06 00:32:04>>Received 46100 packets!
+2021-08-06 00:32:57>>Received 46200 packets!
+2021-08-06 00:33:49>>Received 46300 packets!
+2021-08-06 00:34:17>>JTAG daisy chain now = 100111101111111010
+2021-08-06 00:34:41>>Received 46400 packets!
+2021-08-06 00:35:34>>Received 46500 packets!
+2021-08-06 00:36:26>>Received 46600 packets!
+2021-08-06 00:37:19>>Received 46700 packets!
+2021-08-06 00:38:11>>Received 46800 packets!
+2021-08-06 00:39:04>>Received 46900 packets!
+2021-08-06 00:39:17>>JTAG daisy chain now = 101110111101100000
+2021-08-06 00:39:56>>Received 47000 packets!
+2021-08-06 00:40:48>>Received 47100 packets!
+2021-08-06 00:41:41>>Received 47200 packets!
+2021-08-06 00:42:33>>Received 47300 packets!
+2021-08-06 00:43:26>>Received 47400 packets!
+2021-08-06 00:44:17>>JTAG daisy chain now = 110111101011001100
+2021-08-06 00:44:18>>Received 47500 packets!
+2021-08-06 00:45:11>>Received 47600 packets!
+2021-08-06 00:46:03>>Received 47700 packets!
+2021-08-06 00:46:55>>Received 47800 packets!
+2021-08-06 00:47:48>>Received 47900 packets!
+2021-08-06 00:48:40>>Received 48000 packets!
+2021-08-06 00:49:17>>JTAG daisy chain now = 011110101001011001
+2021-08-06 00:49:33>>Received 48100 packets!
+2021-08-06 00:50:25>>Received 48200 packets!
+2021-08-06 00:51:18>>Received 48300 packets!
+2021-08-06 00:52:10>>Received 48400 packets!
+2021-08-06 00:53:02>>Received 48500 packets!
+2021-08-06 00:53:55>>Received 48600 packets!
+2021-08-06 00:54:17>>JTAG daisy chain now = 011010010100111010
+2021-08-06 00:54:47>>Received 48700 packets!
+2021-08-06 00:55:40>>Received 48800 packets!
+2021-08-06 00:56:32>>Received 48900 packets!
+2021-08-06 00:57:25>>Received 49000 packets!
+2021-08-06 00:58:17>>Received 49100 packets!
+2021-08-06 00:59:09>>Received 49200 packets!
+2021-08-06 00:59:17>>JTAG daisy chain now = 101101101011011000
+2021-08-06 01:00:02>>Received 49300 packets!
+2021-08-06 01:00:54>>Received 49400 packets!
+2021-08-06 01:01:47>>Received 49500 packets!
+2021-08-06 01:02:39>>Received 49600 packets!
+2021-08-06 01:03:31>>Received 49700 packets!
+2021-08-06 01:04:17>>JTAG daisy chain now = 101111110110010010
+2021-08-06 01:04:24>>Received 49800 packets!
+2021-08-06 01:05:16>>Received 49900 packets!
+2021-08-06 01:06:09>>Received 50000 packets!
+2021-08-06 01:07:01>>Received 50100 packets!
+2021-08-06 01:07:54>>Received 50200 packets!
+2021-08-06 01:08:46>>Received 50300 packets!
+2021-08-06 01:09:18>>JTAG daisy chain now = 000100010010100110
+2021-08-06 01:09:38>>Received 50400 packets!
+2021-08-06 01:10:31>>Received 50500 packets!
+2021-08-06 01:11:23>>Received 50600 packets!
+2021-08-06 01:12:16>>Received 50700 packets!
+2021-08-06 01:13:08>>Received 50800 packets!
+2021-08-06 01:14:01>>Received 50900 packets!
+2021-08-06 01:14:18>>JTAG daisy chain now = 000110110111001010
+2021-08-06 01:14:53>>Received 51000 packets!
+2021-08-06 01:15:45>>Received 51100 packets!
+2021-08-06 01:16:38>>Received 51200 packets!
+2021-08-06 01:17:30>>Received 51300 packets!
+2021-08-06 01:18:23>>Received 51400 packets!
+2021-08-06 01:19:15>>Received 51500 packets!
+2021-08-06 01:19:18>>JTAG daisy chain now = 000000011010101100
+2021-08-06 01:20:08>>Received 51600 packets!
+2021-08-06 01:21:00>>Received 51700 packets!
+2021-08-06 01:21:52>>Received 51800 packets!
+2021-08-06 01:22:45>>Received 51900 packets!
+2021-08-06 01:23:37>>Received 52000 packets!
+2021-08-06 01:24:18>>JTAG daisy chain now = 110110001100111011
+2021-08-06 01:24:30>>Received 52100 packets!
+2021-08-06 01:25:22>>Received 52200 packets!
+2021-08-06 01:26:15>>Received 52300 packets!
+2021-08-06 01:27:07>>Received 52400 packets!
+2021-08-06 01:27:59>>Received 52500 packets!
+2021-08-06 01:28:52>>Received 52600 packets!
+2021-08-06 01:29:18>>JTAG daisy chain now = 111101111000100100
+2021-08-06 01:29:44>>Received 52700 packets!
+2021-08-06 01:30:37>>Received 52800 packets!
+2021-08-06 01:31:29>>Received 52900 packets!
+2021-08-06 01:32:22>>Received 53000 packets!
+2021-08-06 01:33:14>>Received 53100 packets!
+2021-08-06 01:34:06>>Received 53200 packets!
+2021-08-06 01:34:18>>JTAG daisy chain now = 011000110101111001
+2021-08-06 01:34:59>>Received 53300 packets!
+2021-08-06 01:35:51>>Received 53400 packets!
+2021-08-06 01:36:44>>Received 53500 packets!
+2021-08-06 01:37:36>>Received 53600 packets!
+2021-08-06 01:38:29>>Received 53700 packets!
+2021-08-06 01:39:18>>JTAG daisy chain now = 010101001111000111
+2021-08-06 01:39:21>>Received 53800 packets!
+2021-08-06 01:40:13>>Received 53900 packets!
+2021-08-06 01:41:06>>Received 54000 packets!
+2021-08-06 01:41:58>>Received 54100 packets!
+2021-08-06 01:42:51>>Received 54200 packets!
+2021-08-06 01:43:43>>Received 54300 packets!
+2021-08-06 01:44:18>>JTAG daisy chain now = 011100001111011111
+2021-08-06 01:44:36>>Received 54400 packets!
+2021-08-06 01:45:28>>Received 54500 packets!
+2021-08-06 01:46:20>>Received 54600 packets!
+2021-08-06 01:47:13>>Received 54700 packets!
+2021-08-06 01:48:05>>Received 54800 packets!
+2021-08-06 01:48:58>>Received 54900 packets!
+2021-08-06 01:49:18>>JTAG daisy chain now = 111100110110100010
+2021-08-06 01:49:50>>Received 55000 packets!
+2021-08-06 01:50:43>>Received 55100 packets!
+2021-08-06 01:51:35>>Received 55200 packets!
+2021-08-06 01:52:27>>Received 55300 packets!
+2021-08-06 01:53:20>>Received 55400 packets!
+2021-08-06 01:54:12>>Received 55500 packets!
+2021-08-06 01:54:18>>JTAG daisy chain now = 101000110000000011
+2021-08-06 01:55:05>>Received 55600 packets!
+2021-08-06 01:55:57>>Received 55700 packets!
+2021-08-06 01:56:50>>Received 55800 packets!
+2021-08-06 01:57:42>>Received 55900 packets!
+2021-08-06 01:58:34>>Received 56000 packets!
+2021-08-06 01:59:18>>JTAG daisy chain now = 010101101101001111
+2021-08-06 01:59:27>>Received 56100 packets!
+2021-08-06 02:00:19>>Received 56200 packets!
+2021-08-06 02:01:12>>Received 56300 packets!
+2021-08-06 02:02:04>>Received 56400 packets!
+2021-08-06 02:02:57>>Received 56500 packets!
+2021-08-06 02:03:49>>Received 56600 packets!
+2021-08-06 02:04:18>>JTAG daisy chain now = 000011100000100011
+2021-08-06 02:04:41>>Received 56700 packets!
+2021-08-06 02:05:34>>Received 56800 packets!
+2021-08-06 02:06:26>>Received 56900 packets!
+2021-08-06 02:07:19>>Received 57000 packets!
+2021-08-06 02:08:11>>Received 57100 packets!
+2021-08-06 02:09:04>>Received 57200 packets!
+2021-08-06 02:09:19>>JTAG daisy chain now = 010101101000000010
+2021-08-06 02:09:56>>Received 57300 packets!
+2021-08-06 02:10:48>>Received 57400 packets!
+2021-08-06 02:11:41>>Received 57500 packets!
+2021-08-06 02:12:33>>Received 57600 packets!
+2021-08-06 02:13:26>>Received 57700 packets!
+2021-08-06 02:14:18>>Received 57800 packets!
+2021-08-06 02:14:19>>JTAG daisy chain now = 001111101110011011
+2021-08-06 02:15:11>>Received 57900 packets!
+2021-08-06 02:16:03>>Received 58000 packets!
+2021-08-06 02:16:55>>Received 58100 packets!
+2021-08-06 02:17:48>>Received 58200 packets!
+2021-08-06 02:18:40>>Received 58300 packets!
+2021-08-06 02:19:19>>JTAG daisy chain now = 111011001001011101
+2021-08-06 02:19:33>>Received 58400 packets!
+2021-08-06 02:20:25>>Received 58500 packets!
+2021-08-06 02:21:17>>Received 58600 packets!
+2021-08-06 02:22:10>>Received 58700 packets!
+2021-08-06 02:23:02>>Received 58800 packets!
+2021-08-06 02:23:55>>Received 58900 packets!
+2021-08-06 02:24:19>>JTAG daisy chain now = 110100111000110000
+2021-08-06 02:24:47>>Received 59000 packets!
+2021-08-06 02:25:40>>Received 59100 packets!
+2021-08-06 02:26:32>>Received 59200 packets!
+2021-08-06 02:27:24>>Received 59300 packets!
+2021-08-06 02:28:17>>Received 59400 packets!
+2021-08-06 02:29:09>>Received 59500 packets!
+2021-08-06 02:29:19>>JTAG daisy chain now = 001011011101100000
+2021-08-06 02:30:02>>Received 59600 packets!
+2021-08-06 02:30:54>>Received 59700 packets!
+2021-08-06 02:31:47>>Received 59800 packets!
+2021-08-06 02:32:39>>Received 59900 packets!
+2021-08-06 02:33:32>>Received 60000 packets!
+2021-08-06 02:34:19>>JTAG daisy chain now = 110101001101101111
+2021-08-06 02:34:24>>Received 60100 packets!
+2021-08-06 02:35:16>>Received 60200 packets!
+2021-08-06 02:36:09>>Received 60300 packets!
+2021-08-06 02:37:01>>Received 60400 packets!
+2021-08-06 02:37:54>>Received 60500 packets!
+2021-08-06 02:38:46>>Received 60600 packets!
+2021-08-06 02:39:19>>JTAG daisy chain now = 010000011010110000
+2021-08-06 02:39:38>>Received 60700 packets!
+2021-08-06 02:40:31>>Received 60800 packets!
+2021-08-06 02:41:23>>Received 60900 packets!
+2021-08-06 02:42:16>>Received 61000 packets!
+2021-08-06 02:43:08>>Received 61100 packets!
+2021-08-06 02:44:01>>Received 61200 packets!
+2021-08-06 02:44:19>>JTAG daisy chain now = 111111010001111010
+2021-08-06 02:44:53>>Received 61300 packets!
+2021-08-06 02:45:45>>Received 61400 packets!
+2021-08-06 02:46:38>>Received 61500 packets!
+2021-08-06 02:47:30>>Received 61600 packets!
+2021-08-06 02:48:23>>Received 61700 packets!
+2021-08-06 02:49:15>>Received 61800 packets!
+2021-08-06 02:49:19>>JTAG daisy chain now = 010000101001101101
+2021-08-06 02:50:08>>Received 61900 packets!
+2021-08-06 02:51:00>>Received 62000 packets!
+2021-08-06 02:51:52>>Received 62100 packets!
+2021-08-06 02:52:45>>Received 62200 packets!
+2021-08-06 02:53:37>>Received 62300 packets!
+2021-08-06 02:54:20>>JTAG daisy chain now = 110011111010100100
+2021-08-06 02:54:30>>Received 62400 packets!
+2021-08-06 02:55:22>>Received 62500 packets!
+2021-08-06 02:56:15>>Received 62600 packets!
+2021-08-06 02:57:07>>Received 62700 packets!
+2021-08-06 02:57:59>>Received 62800 packets!
+2021-08-06 02:58:52>>Received 62900 packets!
+2021-08-06 02:59:20>>JTAG daisy chain now = 010000000010110101
+2021-08-06 02:59:44>>Received 63000 packets!
+2021-08-06 03:00:37>>Received 63100 packets!
+2021-08-06 03:01:29>>Received 63200 packets!
+2021-08-06 03:02:22>>Received 63300 packets!
+2021-08-06 03:03:14>>Received 63400 packets!
+2021-08-06 03:04:06>>Received 63500 packets!
+2021-08-06 03:04:20>>JTAG daisy chain now = 100011000111111010
+2021-08-06 03:04:59>>Received 63600 packets!
+2021-08-06 03:05:51>>Received 63700 packets!
+2021-08-06 03:06:44>>Received 63800 packets!
+2021-08-06 03:07:36>>Received 63900 packets!
+2021-08-06 03:08:29>>Received 64000 packets!
+2021-08-06 03:09:20>>JTAG daisy chain now = 111000001011010011
+2021-08-06 03:09:21>>Received 64100 packets!
+2021-08-06 03:10:13>>Received 64200 packets!
+2021-08-06 03:11:06>>Received 64300 packets!
+2021-08-06 03:11:58>>Received 64400 packets!
+2021-08-06 03:12:51>>Received 64500 packets!
+2021-08-06 03:13:43>>Received 64600 packets!
+2021-08-06 03:14:20>>JTAG daisy chain now = 011010101001001110
+2021-08-06 03:14:36>>Received 64700 packets!
+2021-08-06 03:15:28>>Received 64800 packets!
+2021-08-06 03:16:20>>Received 64900 packets!
+2021-08-06 03:17:13>>Received 65000 packets!
+2021-08-06 03:18:05>>Received 65100 packets!
+2021-08-06 03:18:58>>Received 65200 packets!
+2021-08-06 03:19:20>>JTAG daisy chain now = 111001100010100111
+2021-08-06 03:19:50>>Received 65300 packets!
+2021-08-06 03:20:43>>Received 65400 packets!
+2021-08-06 03:21:35>>Received 65500 packets!
+2021-08-06 03:22:27>>Received 65600 packets!
+2021-08-06 03:23:20>>Received 65700 packets!
+2021-08-06 03:24:12>>Received 65800 packets!
+2021-08-06 03:24:20>>JTAG daisy chain now = 110101010001011110
+2021-08-06 03:25:05>>Received 65900 packets!
+2021-08-06 03:25:57>>Received 66000 packets!
+2021-08-06 03:26:50>>Received 66100 packets!
+2021-08-06 03:27:42>>Received 66200 packets!
+2021-08-06 03:28:34>>Received 66300 packets!
+2021-08-06 03:29:20>>JTAG daisy chain now = 100111000111110010
+2021-08-06 03:29:27>>Received 66400 packets!
+2021-08-06 03:30:19>>Received 66500 packets!
+2021-08-06 03:31:12>>Received 66600 packets!
+2021-08-06 03:32:04>>Received 66700 packets!
+2021-08-06 03:32:57>>Received 66800 packets!
+2021-08-06 03:33:49>>Received 66900 packets!
+2021-08-06 03:34:20>>JTAG daisy chain now = 101110011110011000
+2021-08-06 03:34:41>>Received 67000 packets!
+2021-08-06 03:35:34>>Received 67100 packets!
+2021-08-06 03:36:26>>Received 67200 packets!
+2021-08-06 03:37:19>>Received 67300 packets!
+2021-08-06 03:38:11>>Received 67400 packets!
+2021-08-06 03:39:04>>Received 67500 packets!
+2021-08-06 03:39:20>>JTAG daisy chain now = 101100111110010110
+2021-08-06 03:39:56>>Received 67600 packets!
+2021-08-06 03:40:48>>Received 67700 packets!
+2021-08-06 03:41:41>>Received 67800 packets!
+2021-08-06 03:42:33>>Received 67900 packets!
+2021-08-06 03:43:26>>Received 68000 packets!
+2021-08-06 03:44:18>>Received 68100 packets!
+2021-08-06 03:44:20>>JTAG daisy chain now = 000011101101001001
+2021-08-06 03:45:11>>Received 68200 packets!
+2021-08-06 03:46:03>>Received 68300 packets!
+2021-08-06 03:46:55>>Received 68400 packets!
+2021-08-06 03:47:48>>Received 68500 packets!
+2021-08-06 03:48:40>>Received 68600 packets!
+2021-08-06 03:49:20>>JTAG daisy chain now = 000111101011100000
+2021-08-06 03:49:33>>Received 68700 packets!
+2021-08-06 03:50:25>>Received 68800 packets!
+2021-08-06 03:51:17>>Received 68900 packets!
+2021-08-06 03:52:10>>Received 69000 packets!
+2021-08-06 03:53:02>>Received 69100 packets!
+2021-08-06 03:53:55>>Received 69200 packets!
+2021-08-06 03:54:21>>JTAG daisy chain now = 011101011010011110
+2021-08-06 03:54:47>>Received 69300 packets!
+2021-08-06 03:55:40>>Received 69400 packets!
+2021-08-06 03:56:32>>Received 69500 packets!
+2021-08-06 03:57:24>>Received 69600 packets!
+2021-08-06 03:58:17>>Received 69700 packets!
+2021-08-06 03:59:09>>Received 69800 packets!
+2021-08-06 03:59:21>>JTAG daisy chain now = 111011100000001111
+2021-08-06 04:00:02>>Received 69900 packets!
+2021-08-06 04:00:54>>Received 70000 packets!
+2021-08-06 04:01:47>>Received 70100 packets!
+2021-08-06 04:02:39>>Received 70200 packets!
+2021-08-06 04:03:31>>Received 70300 packets!
+2021-08-06 04:04:21>>JTAG daisy chain now = 101100000110111100
+2021-08-06 04:04:24>>Received 70400 packets!
+2021-08-06 04:05:16>>Received 70500 packets!
+2021-08-06 04:06:09>>Received 70600 packets!
+2021-08-06 04:07:01>>Received 70700 packets!
+2021-08-06 04:07:54>>Received 70800 packets!
+2021-08-06 04:08:46>>Received 70900 packets!
+2021-08-06 04:09:21>>JTAG daisy chain now = 111011101011010001
+2021-08-06 04:09:38>>Received 71000 packets!
+2021-08-06 04:10:31>>Received 71100 packets!
+2021-08-06 04:11:23>>Received 71200 packets!
+2021-08-06 04:12:16>>Received 71300 packets!
+2021-08-06 04:13:08>>Received 71400 packets!
+2021-08-06 04:14:01>>Received 71500 packets!
+2021-08-06 04:14:21>>JTAG daisy chain now = 000000000001100100
+2021-08-06 04:14:53>>Received 71600 packets!
+2021-08-06 04:15:45>>Received 71700 packets!
+2021-08-06 04:16:38>>Received 71800 packets!
+2021-08-06 04:17:30>>Received 71900 packets!
+2021-08-06 04:18:23>>Received 72000 packets!
+2021-08-06 04:19:15>>Received 72100 packets!
+2021-08-06 04:19:21>>JTAG daisy chain now = 000111001010010111
+2021-08-06 04:20:08>>Received 72200 packets!
+2021-08-06 04:21:00>>Received 72300 packets!
+2021-08-06 04:21:52>>Received 72400 packets!
+2021-08-06 04:22:45>>Received 72500 packets!
+2021-08-06 04:23:37>>Received 72600 packets!
+2021-08-06 04:24:21>>JTAG daisy chain now = 010110101011111000
+2021-08-06 04:24:30>>Received 72700 packets!
+2021-08-06 04:25:22>>Received 72800 packets!
+2021-08-06 04:26:15>>Received 72900 packets!
+2021-08-06 04:27:07>>Received 73000 packets!
+2021-08-06 04:27:59>>Received 73100 packets!
+2021-08-06 04:28:52>>Received 73200 packets!
+2021-08-06 04:29:21>>JTAG daisy chain now = 100110011111011000
+2021-08-06 04:29:44>>Received 73300 packets!
+2021-08-06 04:30:37>>Received 73400 packets!
+2021-08-06 04:31:29>>Received 73500 packets!
+2021-08-06 04:32:22>>Received 73600 packets!
+2021-08-06 04:33:14>>Received 73700 packets!
+2021-08-06 04:34:06>>Received 73800 packets!
+2021-08-06 04:34:21>>JTAG daisy chain now = 100101010010000101
+2021-08-06 04:34:59>>Received 73900 packets!
+2021-08-06 04:35:51>>Received 74000 packets!
+2021-08-06 04:36:44>>Received 74100 packets!
+2021-08-06 04:37:36>>Received 74200 packets!
+2021-08-06 04:38:29>>Received 74300 packets!
+2021-08-06 04:39:21>>Received 74400 packets!
+2021-08-06 04:39:21>>JTAG daisy chain now = 101000111100110100
+2021-08-06 04:40:13>>Received 74500 packets!
+2021-08-06 04:41:06>>Received 74600 packets!
+2021-08-06 04:41:58>>Received 74700 packets!
+2021-08-06 04:42:51>>Received 74800 packets!
+2021-08-06 04:43:43>>Received 74900 packets!
+2021-08-06 04:44:21>>JTAG daisy chain now = 011010011000100100
+2021-08-06 04:44:36>>Received 75000 packets!
+2021-08-06 04:45:28>>Received 75100 packets!
+2021-08-06 04:46:20>>Received 75200 packets!
+2021-08-06 04:47:13>>Received 75300 packets!
+2021-08-06 04:48:05>>Received 75400 packets!
+2021-08-06 04:48:58>>Received 75500 packets!
+2021-08-06 04:49:21>>JTAG daisy chain now = 101000000110000100
+2021-08-06 04:49:50>>Received 75600 packets!
+2021-08-06 04:50:43>>Received 75700 packets!
+2021-08-06 04:51:35>>Received 75800 packets!
+2021-08-06 04:52:27>>Received 75900 packets!
+2021-08-06 04:53:20>>Received 76000 packets!
+2021-08-06 04:54:12>>Received 76100 packets!
+2021-08-06 04:54:22>>JTAG daisy chain now = 101101001001111010
+2021-08-06 04:55:05>>Received 76200 packets!
+2021-08-06 04:55:57>>Received 76300 packets!
+2021-08-06 04:56:50>>Received 76400 packets!
+2021-08-06 04:57:42>>Received 76500 packets!
+2021-08-06 04:58:34>>Received 76600 packets!
+2021-08-06 04:59:22>>JTAG daisy chain now = 010100011011110111
+2021-08-06 04:59:27>>Received 76700 packets!
+2021-08-06 05:00:19>>Received 76800 packets!
+2021-08-06 05:01:12>>Received 76900 packets!
+2021-08-06 05:02:04>>Received 77000 packets!
+2021-08-06 05:02:57>>Received 77100 packets!
+2021-08-06 05:03:49>>Received 77200 packets!
+2021-08-06 05:04:22>>JTAG daisy chain now = 110010010011000100
+2021-08-06 05:04:41>>Received 77300 packets!
+2021-08-06 05:05:34>>Received 77400 packets!
+2021-08-06 05:06:26>>Received 77500 packets!
+2021-08-06 05:07:19>>Received 77600 packets!
+2021-08-06 05:08:11>>Received 77700 packets!
+2021-08-06 05:09:04>>Received 77800 packets!
+2021-08-06 05:09:22>>JTAG daisy chain now = 111101111100000011
+2021-08-06 05:09:56>>Received 77900 packets!
+2021-08-06 05:10:48>>Received 78000 packets!
+2021-08-06 05:11:41>>Received 78100 packets!
+2021-08-06 05:12:33>>Received 78200 packets!
+2021-08-06 05:13:26>>Received 78300 packets!
+2021-08-06 05:14:18>>Received 78400 packets!
+2021-08-06 05:14:22>>JTAG daisy chain now = 000110010010001101
+2021-08-06 05:15:11>>Received 78500 packets!
+2021-08-06 05:16:03>>Received 78600 packets!
+2021-08-06 05:16:55>>Received 78700 packets!
+2021-08-06 05:17:48>>Received 78800 packets!
+2021-08-06 05:18:40>>Received 78900 packets!
+2021-08-06 05:19:22>>JTAG daisy chain now = 011011110111110101
+2021-08-06 05:19:33>>Received 79000 packets!
+2021-08-06 05:20:25>>Received 79100 packets!
+2021-08-06 05:21:17>>Received 79200 packets!
+2021-08-06 05:22:10>>Received 79300 packets!
+2021-08-06 05:23:02>>Received 79400 packets!
+2021-08-06 05:23:55>>Received 79500 packets!
+2021-08-06 05:24:22>>JTAG daisy chain now = 111101110010101110
+2021-08-06 05:24:47>>Received 79600 packets!
+2021-08-06 05:25:40>>Received 79700 packets!
+2021-08-06 05:26:32>>Received 79800 packets!
+2021-08-06 05:27:25>>Received 79900 packets!
+2021-08-06 05:28:17>>Received 80000 packets!
+2021-08-06 05:29:09>>Received 80100 packets!
+2021-08-06 05:29:22>>JTAG daisy chain now = 011000000011100100
+2021-08-06 05:30:02>>Received 80200 packets!
+2021-08-06 05:30:54>>Received 80300 packets!
+2021-08-06 05:31:47>>Received 80400 packets!
+2021-08-06 05:32:39>>Received 80500 packets!
+2021-08-06 05:33:31>>Received 80600 packets!
+2021-08-06 05:34:22>>JTAG daisy chain now = 000000111110111001
+2021-08-06 05:34:24>>Received 80700 packets!
+2021-08-06 05:35:16>>Received 80800 packets!
+2021-08-06 05:36:09>>Received 80900 packets!
+2021-08-06 05:37:01>>Received 81000 packets!
+2021-08-06 05:37:54>>Received 81100 packets!
+2021-08-06 05:38:46>>Received 81200 packets!
+2021-08-06 05:39:22>>JTAG daisy chain now = 010001000010110010
+2021-08-06 05:39:38>>Received 81300 packets!
+2021-08-06 05:40:31>>Received 81400 packets!
+2021-08-06 05:41:23>>Received 81500 packets!
+2021-08-06 05:42:16>>Received 81600 packets!
+2021-08-06 05:43:08>>Received 81700 packets!
+2021-08-06 05:44:01>>Received 81800 packets!
+2021-08-06 05:44:23>>JTAG daisy chain now = 011001100010111101
+2021-08-06 05:44:53>>Received 81900 packets!
+2021-08-06 05:45:45>>Received 82000 packets!
+2021-08-06 05:46:38>>Received 82100 packets!
+2021-08-06 05:47:30>>Received 82200 packets!
+2021-08-06 05:48:23>>Received 82300 packets!
+2021-08-06 05:49:15>>Received 82400 packets!
+2021-08-06 05:49:23>>JTAG daisy chain now = 110100100111000111
+2021-08-06 05:50:08>>Received 82500 packets!
+2021-08-06 05:51:00>>Received 82600 packets!
+2021-08-06 05:51:52>>Received 82700 packets!
+2021-08-06 05:52:45>>Received 82800 packets!
+2021-08-06 05:53:37>>Received 82900 packets!
+2021-08-06 05:54:23>>JTAG daisy chain now = 000101101111100100
+2021-08-06 05:54:30>>Received 83000 packets!
+2021-08-06 05:55:22>>Received 83100 packets!
+2021-08-06 05:56:15>>Received 83200 packets!
+2021-08-06 05:57:07>>Received 83300 packets!
+2021-08-06 05:57:59>>Received 83400 packets!
+2021-08-06 05:58:52>>Received 83500 packets!
+2021-08-06 05:59:23>>JTAG daisy chain now = 100010111001110000
+2021-08-06 05:59:44>>Received 83600 packets!
+2021-08-06 06:00:37>>Received 83700 packets!
+2021-08-06 06:01:29>>Received 83800 packets!
+2021-08-06 06:02:22>>Received 83900 packets!
+2021-08-06 06:03:14>>Received 84000 packets!
+2021-08-06 06:04:06>>Received 84100 packets!
+2021-08-06 06:04:23>>JTAG daisy chain now = 010101000010111101
+2021-08-06 06:04:59>>Received 84200 packets!
+2021-08-06 06:05:51>>Received 84300 packets!
+2021-08-06 06:06:44>>Received 84400 packets!
+2021-08-06 06:07:36>>Received 84500 packets!
+2021-08-06 06:08:29>>Received 84600 packets!
+2021-08-06 06:09:21>>Received 84700 packets!
+2021-08-06 06:09:23>>JTAG daisy chain now = 101110111011011011
+2021-08-06 06:10:13>>Received 84800 packets!
+2021-08-06 06:11:06>>Received 84900 packets!
+2021-08-06 06:11:58>>Received 85000 packets!
+2021-08-06 06:12:51>>Received 85100 packets!
+2021-08-06 06:13:43>>Received 85200 packets!
+2021-08-06 06:14:23>>JTAG daisy chain now = 101111110010001111
+2021-08-06 06:14:36>>Received 85300 packets!
+2021-08-06 06:15:28>>Received 85400 packets!
+2021-08-06 06:16:20>>Received 85500 packets!
+2021-08-06 06:17:13>>Received 85600 packets!
+2021-08-06 06:18:05>>Received 85700 packets!
+2021-08-06 06:18:58>>Received 85800 packets!
+2021-08-06 06:19:23>>JTAG daisy chain now = 011001100101001000
+2021-08-06 06:19:50>>Received 85900 packets!
+2021-08-06 06:20:43>>Received 86000 packets!
+2021-08-06 06:21:35>>Received 86100 packets!
+2021-08-06 06:22:27>>Received 86200 packets!
+2021-08-06 06:23:20>>Received 86300 packets!
+2021-08-06 06:24:12>>Received 86400 packets!
+2021-08-06 06:24:23>>JTAG daisy chain now = 101100000000000110
+2021-08-06 06:25:05>>Received 86500 packets!
+2021-08-06 06:25:57>>Received 86600 packets!
+2021-08-06 06:26:49>>Received 86700 packets!
+2021-08-06 06:27:42>>Received 86800 packets!
+2021-08-06 06:28:34>>Received 86900 packets!
+2021-08-06 06:29:24>>JTAG daisy chain now = 111111110101011000
+2021-08-06 06:29:27>>Received 87000 packets!
+2021-08-06 06:30:19>>Received 87100 packets!
+2021-08-06 06:31:12>>Received 87200 packets!
+2021-08-06 06:32:04>>Received 87300 packets!
+2021-08-06 06:32:56>>Received 87400 packets!
+2021-08-06 06:33:49>>Received 87500 packets!
+2021-08-06 06:34:24>>JTAG daisy chain now = 100110110000001100
+2021-08-06 06:34:41>>Received 87600 packets!
+2021-08-06 06:35:34>>Received 87700 packets!
+2021-08-06 06:36:26>>Received 87800 packets!
+2021-08-06 06:37:19>>Received 87900 packets!
+2021-08-06 06:38:11>>Received 88000 packets!
+2021-08-06 06:39:04>>Received 88100 packets!
+2021-08-06 06:39:24>>JTAG daisy chain now = 100011100111101100
+2021-08-06 06:39:56>>Received 88200 packets!
+2021-08-06 06:40:48>>Received 88300 packets!
+2021-08-06 06:41:41>>Received 88400 packets!
+2021-08-06 06:42:33>>Received 88500 packets!
+2021-08-06 06:43:26>>Received 88600 packets!
+2021-08-06 06:44:18>>Received 88700 packets!
+2021-08-06 06:44:24>>JTAG daisy chain now = 111010100000001000
+2021-08-06 06:45:10>>Received 88800 packets!
+2021-08-06 06:46:03>>Received 88900 packets!
+2021-08-06 06:46:55>>Received 89000 packets!
+2021-08-06 06:47:48>>Received 89100 packets!
+2021-08-06 06:48:40>>Received 89200 packets!
+2021-08-06 06:49:24>>JTAG daisy chain now = 010101001101110100
+2021-08-06 06:49:33>>Received 89300 packets!
+2021-08-06 06:50:25>>Received 89400 packets!
+2021-08-06 06:51:17>>Received 89500 packets!
+2021-08-06 06:52:10>>Received 89600 packets!
+2021-08-06 06:53:02>>Received 89700 packets!
+2021-08-06 06:53:55>>Received 89800 packets!
+2021-08-06 06:54:24>>JTAG daisy chain now = 101011001100011101
+2021-08-06 06:54:47>>Received 89900 packets!
+2021-08-06 06:55:40>>Received 90000 packets!
+2021-08-06 06:56:32>>Received 90100 packets!
+2021-08-06 06:57:24>>Received 90200 packets!
+2021-08-06 06:58:17>>Received 90300 packets!
+2021-08-06 06:59:09>>Received 90400 packets!
+2021-08-06 06:59:24>>JTAG daisy chain now = 000001010000001111
+2021-08-06 07:00:02>>Received 90500 packets!
+2021-08-06 07:00:54>>Received 90600 packets!
+2021-08-06 07:01:47>>Received 90700 packets!
+2021-08-06 07:02:39>>Received 90800 packets!
+2021-08-06 07:03:31>>Received 90900 packets!
+2021-08-06 07:04:24>>Received 91000 packets!
+2021-08-06 07:04:24>>JTAG daisy chain now = 000010110100100010
+2021-08-06 07:05:16>>Received 91100 packets!
+2021-08-06 07:06:09>>Received 91200 packets!
+2021-08-06 07:07:01>>Received 91300 packets!
+2021-08-06 07:07:54>>Received 91400 packets!
+2021-08-06 07:08:46>>Received 91500 packets!
+2021-08-06 07:09:24>>JTAG daisy chain now = 011111100101011110
+2021-08-06 07:09:38>>Received 91600 packets!
+2021-08-06 07:10:31>>Received 91700 packets!
+2021-08-06 07:11:23>>Received 91800 packets!
+2021-08-06 07:12:16>>Received 91900 packets!
+2021-08-06 07:13:08>>Received 92000 packets!
+2021-08-06 07:14:01>>Received 92100 packets!
+2021-08-06 07:14:25>>JTAG daisy chain now = 101100010000011011
+2021-08-06 07:14:53>>Received 92200 packets!
+2021-08-06 07:15:45>>Received 92300 packets!
+2021-08-06 07:16:38>>Received 92400 packets!
+2021-08-06 07:17:30>>Received 92500 packets!
+2021-08-06 07:18:23>>Received 92600 packets!
+2021-08-06 07:19:15>>Received 92700 packets!
+2021-08-06 07:19:25>>JTAG daisy chain now = 011111100101100110
+2021-08-06 07:20:08>>Received 92800 packets!
+2021-08-06 07:21:00>>Received 92900 packets!
+2021-08-06 07:21:52>>Received 93000 packets!
+2021-08-06 07:22:45>>Received 93100 packets!
+2021-08-06 07:23:37>>Received 93200 packets!
+2021-08-06 07:24:25>>JTAG daisy chain now = 100100101100011001
+2021-08-06 07:24:30>>Received 93300 packets!
+2021-08-06 07:25:22>>Received 93400 packets!
+2021-08-06 07:26:15>>Received 93500 packets!
+2021-08-06 07:27:07>>Received 93600 packets!
+2021-08-06 07:27:59>>Received 93700 packets!
+2021-08-06 07:28:52>>Received 93800 packets!
+2021-08-06 07:29:25>>JTAG daisy chain now = 010111111100101110
+2021-08-06 07:29:44>>Received 93900 packets!
+2021-08-06 07:30:37>>Received 94000 packets!
+2021-08-06 07:31:29>>Received 94100 packets!
+2021-08-06 07:32:22>>Received 94200 packets!
+2021-08-06 07:33:14>>Received 94300 packets!
+2021-08-06 07:34:06>>Received 94400 packets!
+2021-08-06 07:34:25>>JTAG daisy chain now = 100001101000000001
+2021-08-06 07:34:59>>Received 94500 packets!
+2021-08-06 07:35:51>>Received 94600 packets!
+2021-08-06 07:36:44>>Received 94700 packets!
+2021-08-06 07:37:36>>Received 94800 packets!
+2021-08-06 07:38:29>>Received 94900 packets!
+2021-08-06 07:39:21>>Received 95000 packets!
+2021-08-06 07:39:25>>JTAG daisy chain now = 000011111000101111
+2021-08-06 07:39:25>>TDO_err_reg=1938
+2021-08-06 07:39:26>>TDO_err_reg=12178
+2021-08-06 07:39:26>>tdo_error=12178
+2021-08-06 07:39:26>>tdo_error_pre=0
+2021-08-06 07:39:26>>TDO link failed! Now start to check. TTC, TCK and TMS check disabled.
+2021-08-06 07:39:26>>jtag_daisy_chain=100000000000000000
+2021-08-06 07:39:26>>TDO_err_reg=18592
+2021-08-06 07:39:28>>jtag_daisy_chain=010000000000000000
+2021-08-06 07:39:30>>jtag_daisy_chain=001000000000000000
+2021-08-06 07:39:32>>jtag_daisy_chain=000100000000000000
+2021-08-06 07:39:34>>jtag_daisy_chain=000010000000000000
+2021-08-06 07:39:36>>jtag_daisy_chain=000001000000000000
+2021-08-06 07:39:38>>jtag_daisy_chain=000000100000000000
+2021-08-06 07:39:40>>jtag_daisy_chain=000000010000000000
+2021-08-06 07:39:42>>jtag_daisy_chain=000000001000000000
+2021-08-06 07:39:44>>jtag_daisy_chain=000000000100000000
+2021-08-06 07:39:46>>jtag_daisy_chain=000000000010000000
+2021-08-06 07:39:48>>jtag_daisy_chain=000000000001000000
+2021-08-06 07:39:50>>jtag_daisy_chain=000000000000100000
+2021-08-06 07:39:52>>jtag_daisy_chain=000000000000010000
+2021-08-06 07:39:54>>jtag_daisy_chain=000000000000001000
+2021-08-06 07:39:56>>jtag_daisy_chain=000000000000000100
+2021-08-06 07:39:58>>jtag_daisy_chain=000000000000000010
+2021-08-06 07:39:59>>TDO_err_reg=23406
+2021-08-06 07:39:59>>TDO_err_reg=33646
+2021-08-06 07:40:00>>TDO_err_reg=43886
+2021-08-06 07:40:00>>TDO_err_reg=54126
+2021-08-06 07:40:00>>jtag_daisy_chain=000000000000000001
+2021-08-06 07:40:01>>TDO_err_reg=58141
+2021-08-06 07:40:02>>jtag_working_chain=111111111111111101
+2021-08-06 07:40:02>>multi_boot in 10 second(s)!
+2021-08-06 07:40:03>>multi_boot in 9 second(s)!
+2021-08-06 07:40:04>>multi_boot in 8 second(s)!
+2021-08-06 07:40:05>>multi_boot in 7 second(s)!
+2021-08-06 07:40:06>>multi_boot in 6 second(s)!
+2021-08-06 07:40:08>>multi_boot in 5 second(s)!
+2021-08-06 07:40:09>>multi_boot in 4 second(s)!
+2021-08-06 07:40:10>>multi_boot in 3 second(s)!
+2021-08-06 07:40:11>>multi_boot in 2 second(s)!
+2021-08-06 07:40:12>>multi_boot in 1 second(s)!
+2021-08-06 07:40:13>>multi_boot in progress!
+2021-08-06 07:40:13>>Received 95100 packets!
+2021-08-06 07:40:15>>design number changed to 7
+2021-08-06 07:40:15>>design number changed to 5
+2021-08-06 07:40:15>>Multiboot count=1
+2021-08-06 07:40:17>>error_check_list now =1111111111111111111111111111111111111111111
+2021-08-06 07:40:17>>multi_boot finished!
+2021-08-06 07:41:06>>Received 95200 packets!
+2021-08-06 07:41:58>>Received 95300 packets!
+2021-08-06 07:42:51>>Received 95400 packets!
+2021-08-06 07:43:43>>Received 95500 packets!
+2021-08-06 07:44:25>>JTAG daisy chain now = 100111011000111110
+2021-08-06 07:44:36>>Received 95600 packets!
+2021-08-06 07:45:28>>Received 95700 packets!
+2021-08-06 07:46:20>>Received 95800 packets!
+2021-08-06 07:47:13>>Received 95900 packets!
+2021-08-06 07:48:05>>Received 96000 packets!
+2021-08-06 07:48:58>>Received 96100 packets!
+2021-08-06 07:49:25>>JTAG daisy chain now = 010100010000011110
+2021-08-06 07:49:50>>Received 96200 packets!
+2021-08-06 07:50:43>>Received 96300 packets!
+2021-08-06 07:51:35>>Received 96400 packets!
+2021-08-06 07:52:27>>Received 96500 packets!
+2021-08-06 07:53:20>>Received 96600 packets!
+2021-08-06 07:54:12>>Received 96700 packets!
+2021-08-06 07:54:25>>JTAG daisy chain now = 111010101010110010
+2021-08-06 07:55:05>>Received 96800 packets!
+2021-08-06 07:55:57>>Received 96900 packets!
+2021-08-06 07:56:49>>Received 97000 packets!
+2021-08-06 07:57:42>>Received 97100 packets!
+2021-08-06 07:58:34>>Received 97200 packets!
+2021-08-06 07:59:26>>JTAG daisy chain now = 100101011111101011
+2021-08-06 07:59:27>>Received 97300 packets!
+2021-08-06 08:00:19>>Received 97400 packets!
+2021-08-06 08:01:12>>Received 97500 packets!
+2021-08-06 08:02:04>>Received 97600 packets!
+2021-08-06 08:02:57>>Received 97700 packets!
+2021-08-06 08:03:49>>Received 97800 packets!
+2021-08-06 08:04:26>>JTAG daisy chain now = 000100111111001011
+2021-08-06 08:04:41>>Received 97900 packets!
+2021-08-06 08:05:34>>Received 98000 packets!
+2021-08-06 08:06:26>>Received 98100 packets!
+2021-08-06 08:07:19>>Received 98200 packets!
+2021-08-06 08:08:11>>Received 98300 packets!
+2021-08-06 08:09:03>>Received 98400 packets!
+2021-08-06 08:09:26>>JTAG daisy chain now = 000110011100001010
+2021-08-06 08:09:56>>Received 98500 packets!
+2021-08-06 08:10:48>>Received 98600 packets!
+2021-08-06 08:11:41>>Received 98700 packets!
+2021-08-06 08:12:33>>Received 98800 packets!
+2021-08-06 08:13:26>>Received 98900 packets!
+2021-08-06 08:14:18>>Received 99000 packets!
+2021-08-06 08:14:26>>JTAG daisy chain now = 101110100001100011
+2021-08-06 08:15:10>>Received 99100 packets!
+2021-08-06 08:16:03>>Received 99200 packets!
+2021-08-06 08:16:55>>Received 99300 packets!
+2021-08-06 08:17:48>>Received 99400 packets!
+2021-08-06 08:18:40>>Received 99500 packets!
+2021-08-06 08:19:26>>JTAG daisy chain now = 011110110110001001
+2021-08-06 08:19:33>>Received 99600 packets!
+2021-08-06 08:20:25>>Received 99700 packets!
+2021-08-06 08:21:17>>Received 99800 packets!
+2021-08-06 08:22:10>>Received 99900 packets!
+2021-08-06 08:23:02>>Received 100000 packets!
+2021-08-06 08:23:55>>Received 100100 packets!
+2021-08-06 08:24:26>>JTAG daisy chain now = 101000101000011001
+2021-08-06 08:24:47>>Received 100200 packets!
+2021-08-06 08:25:40>>Received 100300 packets!
+2021-08-06 08:26:32>>Received 100400 packets!
+2021-08-06 08:27:24>>Received 100500 packets!
+2021-08-06 08:28:17>>Received 100600 packets!
+2021-08-06 08:29:09>>Received 100700 packets!
+2021-08-06 08:29:26>>JTAG daisy chain now = 001001010001110111
+2021-08-06 08:30:02>>Received 100800 packets!
+2021-08-06 08:30:54>>Received 100900 packets!
+2021-08-06 08:31:47>>Received 101000 packets!
+2021-08-06 08:32:39>>Received 101100 packets!
+2021-08-06 08:33:31>>Received 101200 packets!
+2021-08-06 08:34:24>>Received 101300 packets!
+2021-08-06 08:34:26>>JTAG daisy chain now = 001101000111011010
+2021-08-06 08:35:16>>Received 101400 packets!
+2021-08-06 08:36:09>>Received 101500 packets!
+2021-08-06 08:37:01>>Received 101600 packets!
+2021-08-06 08:37:54>>Received 101700 packets!
+2021-08-06 08:38:46>>Received 101800 packets!
+2021-08-06 08:39:26>>JTAG daisy chain now = 100110000111101011
+2021-08-06 08:39:38>>Received 101900 packets!
+2021-08-06 08:40:31>>Received 102000 packets!
+2021-08-06 08:41:23>>Received 102100 packets!
+2021-08-06 08:42:16>>Received 102200 packets!
+2021-08-06 08:43:08>>Received 102300 packets!
+2021-08-06 08:44:01>>Received 102400 packets!
+2021-08-06 08:44:26>>JTAG daisy chain now = 001011101010100110
+2021-08-06 08:44:53>>Received 102500 packets!
+2021-08-06 08:45:45>>Received 102600 packets!
+2021-08-06 08:46:38>>Received 102700 packets!
+2021-08-06 08:47:30>>Received 102800 packets!
+2021-08-06 08:48:23>>Received 102900 packets!
+2021-08-06 08:49:15>>Received 103000 packets!
+2021-08-06 08:49:26>>JTAG daisy chain now = 001110001111110010
+2021-08-06 08:50:08>>Received 103100 packets!
+2021-08-06 08:51:00>>Received 103200 packets!
+2021-08-06 08:51:52>>Received 103300 packets!
+2021-08-06 08:52:45>>Received 103400 packets!
+2021-08-06 08:53:38>>Received 103500 packets!
+2021-08-06 08:54:27>>JTAG daisy chain now = 000101000011100010
+2021-08-06 08:54:30>>Received 103600 packets!
+2021-08-06 08:55:23>>Received 103700 packets!
+2021-08-06 08:56:15>>Received 103800 packets!
+2021-08-06 08:57:08>>Received 103900 packets!
+2021-08-06 08:58:00>>Received 104000 packets!
+2021-08-06 08:58:52>>Received 104100 packets!
+2021-08-06 08:59:27>>JTAG daisy chain now = 100000100011010111
+2021-08-06 08:59:45>>Received 104200 packets!
+2021-08-06 09:00:37>>Received 104300 packets!
+2021-08-06 09:01:30>>Received 104400 packets!
+2021-08-06 09:02:22>>Received 104500 packets!
+2021-08-06 09:03:14>>Received 104600 packets!
+2021-08-06 09:04:07>>Received 104700 packets!
+2021-08-06 09:04:27>>JTAG daisy chain now = 100001001110001010
+2021-08-06 09:04:59>>Received 104800 packets!
+2021-08-06 09:05:52>>Received 104900 packets!
+2021-08-06 09:06:44>>Received 105000 packets!
+2021-08-06 09:07:37>>Received 105100 packets!
+2021-08-06 09:08:29>>Received 105200 packets!
+2021-08-06 09:09:21>>Received 105300 packets!
+2021-08-06 09:09:27>>JTAG daisy chain now = 011101010011010001
+2021-08-06 09:10:14>>Received 105400 packets!
+2021-08-06 09:11:06>>Received 105500 packets!
+2021-08-06 09:11:59>>Received 105600 packets!
+2021-08-06 09:12:51>>Received 105700 packets!
+2021-08-06 09:13:44>>Received 105800 packets!
+2021-08-06 09:14:27>>JTAG daisy chain now = 100000001011010001
+2021-08-06 09:14:36>>Received 105900 packets!
+2021-08-06 09:15:28>>Received 106000 packets!
+2021-08-06 09:16:21>>Received 106100 packets!
+2021-08-06 09:17:13>>Received 106200 packets!
+2021-08-06 09:18:06>>Received 106300 packets!
+2021-08-06 09:18:58>>Received 106400 packets!
+2021-08-06 09:19:27>>JTAG daisy chain now = 111001001100111110
+2021-08-06 09:19:51>>Received 106500 packets!
+2021-08-06 09:20:43>>Received 106600 packets!
+2021-08-06 09:21:35>>Received 106700 packets!
+2021-08-06 09:22:28>>Received 106800 packets!
+2021-08-06 09:23:20>>Received 106900 packets!
+2021-08-06 09:24:13>>Received 107000 packets!
+2021-08-06 09:24:27>>JTAG daisy chain now = 011010000111001011
+2021-08-06 09:25:05>>Received 107100 packets!
+2021-08-06 09:25:58>>Received 107200 packets!
+2021-08-06 09:26:50>>Received 107300 packets!
+2021-08-06 09:27:42>>Received 107400 packets!
+2021-08-06 09:28:35>>Received 107500 packets!
+2021-08-06 09:29:27>>Received 107600 packets!
+2021-08-06 09:29:27>>JTAG daisy chain now = 010011010001111011
+2021-08-06 09:30:20>>Received 107700 packets!
+2021-08-06 09:31:12>>Received 107800 packets!
+2021-08-06 09:32:05>>Received 107900 packets!
+2021-08-06 09:32:57>>Received 108000 packets!
+2021-08-06 09:33:49>>Received 108100 packets!
+2021-08-06 09:34:28>>JTAG daisy chain now = 011101111100111011
+2021-08-06 09:34:42>>Received 108200 packets!
+2021-08-06 09:35:34>>Received 108300 packets!
+2021-08-06 09:36:27>>Received 108400 packets!
+2021-08-06 09:37:19>>Received 108500 packets!
+2021-08-06 09:38:12>>Received 108600 packets!
+2021-08-06 09:39:04>>Received 108700 packets!
+2021-08-06 09:39:28>>JTAG daisy chain now = 100011101101100000
+2021-08-06 09:39:56>>Received 108800 packets!
+2021-08-06 09:40:49>>Received 108900 packets!
+2021-08-06 09:41:41>>Received 109000 packets!
+2021-08-06 09:42:34>>Received 109100 packets!
+2021-08-06 09:43:26>>Received 109200 packets!
+2021-08-06 09:44:19>>Received 109300 packets!
+2021-08-06 09:44:28>>JTAG daisy chain now = 111011111111111010
+2021-08-06 09:45:11>>Received 109400 packets!
+2021-08-06 09:46:03>>Received 109500 packets!
+2021-08-06 09:46:56>>Received 109600 packets!
+2021-08-06 09:47:48>>Received 109700 packets!
+2021-08-06 09:48:41>>Received 109800 packets!
+2021-08-06 09:49:28>>JTAG daisy chain now = 000011101010111101
+2021-08-06 09:49:33>>Received 109900 packets!
+2021-08-06 09:50:26>>Received 110000 packets!
+2021-08-06 09:51:18>>Received 110100 packets!
+2021-08-06 09:52:10>>Received 110200 packets!
+2021-08-06 09:53:03>>Received 110300 packets!
+2021-08-06 09:53:55>>Received 110400 packets!
+2021-08-06 09:54:28>>JTAG daisy chain now = 100101110101101111
+2021-08-06 09:54:48>>Received 110500 packets!
+2021-08-06 09:55:40>>Received 110600 packets!
+2021-08-06 09:56:33>>Received 110700 packets!
+2021-08-06 09:57:25>>Received 110800 packets!
+2021-08-06 09:58:17>>Received 110900 packets!
+2021-08-06 09:59:10>>Received 111000 packets!
+2021-08-06 09:59:28>>JTAG daisy chain now = 111111101000111001
+2021-08-06 10:00:02>>Received 111100 packets!
+2021-08-06 10:00:55>>Received 111200 packets!
+2021-08-06 10:01:47>>Received 111300 packets!
+2021-08-06 10:02:40>>Received 111400 packets!
+2021-08-06 10:03:32>>Received 111500 packets!
+2021-08-06 10:04:24>>Received 111600 packets!
+2021-08-06 10:04:28>>JTAG daisy chain now = 011010000101000001
+2021-08-06 10:05:17>>Received 111700 packets!
+2021-08-06 10:06:09>>Received 111800 packets!
+2021-08-06 10:07:02>>Received 111900 packets!
+2021-08-06 10:07:54>>Received 112000 packets!
+2021-08-06 10:08:47>>Received 112100 packets!
+2021-08-06 10:09:28>>JTAG daisy chain now = 001010110011010010
+2021-08-06 10:09:39>>Received 112200 packets!
+2021-08-06 10:10:31>>Received 112300 packets!
+2021-08-06 10:11:24>>Received 112400 packets!
+2021-08-06 10:12:16>>Received 112500 packets!
+2021-08-06 10:13:09>>Received 112600 packets!
+2021-08-06 10:14:01>>Received 112700 packets!
+2021-08-06 10:14:28>>JTAG daisy chain now = 000000111111101101
+2021-08-06 10:14:53>>Received 112800 packets!
+2021-08-06 10:15:46>>Received 112900 packets!
+2021-08-06 10:16:38>>Received 113000 packets!
+2021-08-06 10:17:31>>Received 113100 packets!
+2021-08-06 10:18:23>>Received 113200 packets!
+2021-08-06 10:19:16>>Received 113300 packets!
+2021-08-06 10:19:28>>JTAG daisy chain now = 011111111111000100
+2021-08-06 10:20:08>>Received 113400 packets!
+2021-08-06 10:21:00>>Received 113500 packets!
+2021-08-06 10:21:53>>Received 113600 packets!
+2021-08-06 10:22:45>>Received 113700 packets!
+2021-08-06 10:23:38>>Received 113800 packets!
+2021-08-06 10:24:28>>JTAG daisy chain now = 001000111010010011
+2021-08-06 10:24:30>>Received 113900 packets!
+2021-08-06 10:25:23>>Received 114000 packets!
+2021-08-06 10:26:15>>Received 114100 packets!
+2021-08-06 10:27:07>>Received 114200 packets!
+2021-08-06 10:28:00>>Received 114300 packets!
+2021-08-06 10:28:52>>Received 114400 packets!
+2021-08-06 10:29:28>>JTAG daisy chain now = 111000111000010101
+2021-08-06 10:29:45>>Received 114500 packets!
+2021-08-06 10:30:37>>Received 114600 packets!
+2021-08-06 10:31:30>>Received 114700 packets!
+2021-08-06 10:32:22>>Received 114800 packets!
+2021-08-06 10:33:14>>Received 114900 packets!
+2021-08-06 10:34:07>>Received 115000 packets!
+2021-08-06 10:34:29>>JTAG daisy chain now = 010110000010001100
+2021-08-06 10:34:59>>Received 115100 packets!
+2021-08-06 10:35:52>>Received 115200 packets!
+2021-08-06 10:36:44>>Received 115300 packets!
+2021-08-06 10:37:37>>Received 115400 packets!
+2021-08-06 10:38:29>>Received 115500 packets!
+2021-08-06 10:39:21>>Received 115600 packets!
+2021-08-06 10:39:29>>JTAG daisy chain now = 001100001101111000
+2021-08-06 10:40:14>>Received 115700 packets!
+2021-08-06 10:41:06>>Received 115800 packets!
+2021-08-06 10:41:59>>Received 115900 packets!
+2021-08-06 10:42:51>>Received 116000 packets!
+2021-08-06 10:43:44>>Received 116100 packets!
+2021-08-06 10:44:29>>JTAG daisy chain now = 111010000100111011
+2021-08-06 10:44:36>>Received 116200 packets!
+2021-08-06 10:45:28>>Received 116300 packets!
+2021-08-06 10:46:21>>Received 116400 packets!
+2021-08-06 10:47:13>>Received 116500 packets!
+2021-08-06 10:48:06>>Received 116600 packets!
+2021-08-06 10:48:58>>Received 116700 packets!
+2021-08-06 10:49:29>>JTAG daisy chain now = 001101001110101101
+2021-08-06 10:49:51>>Received 116800 packets!
+2021-08-06 10:50:43>>Received 116900 packets!
+2021-08-06 10:51:35>>Received 117000 packets!
+2021-08-06 10:52:28>>Received 117100 packets!
+2021-08-06 10:53:20>>Received 117200 packets!
+2021-08-06 10:54:13>>Received 117300 packets!
+2021-08-06 10:54:29>>JTAG daisy chain now = 101100111101011001
+2021-08-06 10:55:05>>Received 117400 packets!
+2021-08-06 10:55:58>>Received 117500 packets!
+2021-08-06 10:56:50>>Received 117600 packets!
+2021-08-06 10:57:42>>Received 117700 packets!
+2021-08-06 10:58:35>>Received 117800 packets!
+2021-08-06 10:59:27>>Received 117900 packets!
+2021-08-06 10:59:29>>JTAG daisy chain now = 101110111100001001
+2021-08-06 11:00:20>>Received 118000 packets!
+2021-08-06 11:01:12>>Received 118100 packets!
+2021-08-06 11:02:05>>Received 118200 packets!
+2021-08-06 11:02:57>>Received 118300 packets!
+2021-08-06 11:03:49>>Received 118400 packets!
+2021-08-06 11:04:29>>JTAG daisy chain now = 011110000101011010
+2021-08-06 11:04:42>>Received 118500 packets!
+2021-08-06 11:05:34>>Received 118600 packets!
+2021-08-06 11:06:27>>Received 118700 packets!
+2021-08-06 11:07:19>>Received 118800 packets!
+2021-08-06 11:08:12>>Received 118900 packets!
+2021-08-06 11:09:04>>Received 119000 packets!
+2021-08-06 11:09:29>>JTAG daisy chain now = 011101001000001000
+2021-08-06 11:09:56>>Received 119100 packets!
+2021-08-06 11:10:49>>Received 119200 packets!
+2021-08-06 11:11:41>>Received 119300 packets!
+2021-08-06 11:12:34>>Received 119400 packets!
+2021-08-06 11:13:26>>Received 119500 packets!
+2021-08-06 11:14:19>>Received 119600 packets!
+2021-08-06 11:14:29>>JTAG daisy chain now = 110111010011001100
+2021-08-06 11:15:11>>Received 119700 packets!
+2021-08-06 11:16:03>>Received 119800 packets!
+2021-08-06 11:16:56>>Received 119900 packets!
+2021-08-06 11:17:48>>Received 120000 packets!
+2021-08-06 11:18:41>>Received 120100 packets!
+2021-08-06 11:19:29>>JTAG daisy chain now = 100101010110001111
+2021-08-06 11:19:33>>Received 120200 packets!
+2021-08-06 11:20:26>>Received 120300 packets!
+2021-08-06 11:21:18>>Received 120400 packets!
+2021-08-06 11:22:10>>Received 120500 packets!
+2021-08-06 11:23:03>>Received 120600 packets!
+2021-08-06 11:23:55>>Received 120700 packets!
+2021-08-06 11:24:29>>JTAG daisy chain now = 010010100000111101
+2021-08-06 11:24:48>>Received 120800 packets!
+2021-08-06 11:25:40>>Received 120900 packets!
+2021-08-06 11:26:33>>Received 121000 packets!
+2021-08-06 11:27:25>>Received 121100 packets!
+2021-08-06 11:28:17>>Received 121200 packets!
+2021-08-06 11:29:10>>Received 121300 packets!
+2021-08-06 11:29:29>>JTAG daisy chain now = 011110100100100101
+2021-08-06 11:30:02>>Received 121400 packets!
+2021-08-06 11:30:55>>Received 121500 packets!
+2021-08-06 11:31:47>>Received 121600 packets!
+2021-08-06 11:32:39>>Received 121700 packets!
+2021-08-06 11:33:32>>Received 121800 packets!
+2021-08-06 11:34:24>>Received 121900 packets!
+2021-08-06 11:34:29>>JTAG daisy chain now = 011100011001010101
+2021-08-06 11:35:17>>Received 122000 packets!
+2021-08-06 11:36:09>>Received 122100 packets!
+2021-08-06 11:37:02>>Received 122200 packets!
+2021-08-06 11:37:54>>Received 122300 packets!
+2021-08-06 11:38:46>>Received 122400 packets!
+2021-08-06 11:39:30>>JTAG daisy chain now = 010011111110110010
+2021-08-06 11:39:39>>Received 122500 packets!
+2021-08-06 11:40:31>>Received 122600 packets!
+2021-08-06 11:41:24>>Received 122700 packets!
+2021-08-06 11:42:16>>Received 122800 packets!
+2021-08-06 11:43:09>>Received 122900 packets!
+2021-08-06 11:44:01>>Received 123000 packets!
+2021-08-06 11:44:30>>JTAG daisy chain now = 011010010100000110
+2021-08-06 11:44:53>>Received 123100 packets!
+2021-08-06 11:45:46>>Received 123200 packets!
+2021-08-06 11:46:38>>Received 123300 packets!
+2021-08-06 11:47:31>>Received 123400 packets!
+2021-08-06 11:48:23>>Received 123500 packets!
+2021-08-06 11:49:16>>Received 123600 packets!
+2021-08-06 11:49:30>>JTAG daisy chain now = 000001101010001110
+2021-08-06 11:50:08>>Received 123700 packets!
+2021-08-06 11:51:00>>Received 123800 packets!
+2021-08-06 11:51:53>>Received 123900 packets!
+2021-08-06 11:52:45>>Received 124000 packets!
+2021-08-06 11:53:38>>Received 124100 packets!
+2021-08-06 11:54:30>>JTAG daisy chain now = 111110001110001110
+2021-08-06 11:54:30>>Received 124200 packets!
+2021-08-06 11:55:23>>Received 124300 packets!
+2021-08-06 11:56:15>>Received 124400 packets!
+2021-08-06 11:57:07>>Received 124500 packets!
+2021-08-06 11:58:00>>Received 124600 packets!
+2021-08-06 11:58:52>>Received 124700 packets!
+2021-08-06 11:59:30>>JTAG daisy chain now = 111111011011000001
+2021-08-06 11:59:45>>Received 124800 packets!
+2021-08-06 12:00:37>>Received 124900 packets!
+2021-08-06 12:01:30>>Received 125000 packets!
+2021-08-06 12:02:22>>Received 125100 packets!
+2021-08-06 12:03:14>>Received 125200 packets!
+2021-08-06 12:04:07>>Received 125300 packets!
