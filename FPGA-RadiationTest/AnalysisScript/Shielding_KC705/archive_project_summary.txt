@@ -1,0 +1,497 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = KC705_DAQ
+Directory = /home/xx/work/KC705_DAQ
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<clk_wiz_0_synth_1>
+<ila_0_synth_1>
+<ila_fake_data_monitor_synth_1>
+<vio_ETH_TX_PRELOAD_synth_1>
+<vio_fake_data_synth_1>
+<ila_ETH_TX_PACKING_synth_1>
+<fifo_ETH_TX_synth_1>
+<tri_mode_ethernet_mac_0_synth_1>
+<ila_eth_rx_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<clk_wiz_0>
+None
+
+<fifo_ETH_TX>
+None
+
+<ila_0>
+None
+
+<ila_ETH_TX_PACKING>
+None
+
+<ila_eth_rx>
+None
+
+<ila_fake_data_monitor>
+None
+
+<tri_mode_ethernet_mac_0>
+None
+
+<vio_ETH_TX_PRELOAD>
+None
+
+<vio_fake_data>
+None
+
+<constrs_1>
+/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/new/ETH_firmware/constrain/constrain_test_env_position.xdc
+/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/new/ETH_firmware/constrain/constrain_test_env_timing.xdc
+/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/constrain/tri_mode_ethernet_mac_0_example_design.xdc
+/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/constrain/tri_mode_ethernet_mac_0_user_phytiming.xdc
+
+<sim_1>
+None
+
+<sources_1>
+/home/xx/work/KC705_DAQ/archive_project_summary.txt
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/sys_defs.sv
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0.xci
+./KC705_DAQ.srcs/sources_1/ip/vio_0/doc/vio_v3_0_changelog.txt
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0.vho
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0.veo
+./KC705_DAQ.srcs/sources_1/ip/vio_0/sim/vio_0.vhd
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0.dcp
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0_stub.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/verilog/ltlib_v1_0_0_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/ltlib_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/verilog/xsdbs_v1_0_2_in.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/xsdbs_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/vio_v3_0_19_vio_include.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0.xdc
+./KC705_DAQ.srcs/sources_1/ip/vio_0/hdl/vio_v3_0_syn_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/synth/vio_0.v
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/vio_0/vio_0.xml
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/Risingedge_Pulse.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/ethernet_mac_interface.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/axi_lite_sm/tri_mode_ethernet_mac_0_axi_lite_sm.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/fifo/tri_mode_ethernet_mac_0_bram_tdp.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/tri_mode_ethernet_mac_0_clk_wiz.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/tri_mode_ethernet_mac_0_example_design_clocks.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/tri_mode_ethernet_mac_0_example_design_resets.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/tri_mode_ethernet_mac_0_fifo_block.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/common/tri_mode_ethernet_mac_0_reset_sync.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/fifo/tri_mode_ethernet_mac_0_rx_client_fifo.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/support/tri_mode_ethernet_mac_0_support.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/support/tri_mode_ethernet_mac_0_support_resets.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/common/tri_mode_ethernet_mac_0_sync_block.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/fifo/tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/ethernet_mac_interface/fifo/tri_mode_ethernet_mac_0_tx_client_fifo.v
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/Control_Center.sv
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/ETH_RX_Filter.sv
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/ETH_TX_Packing.sv
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/ETH_TX_Submodule_Sending_FSM.sv
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/Sendback_Center.sv
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/fake_data_sent.sv
+./KC705_DAQ.srcs/sources_1/new/mezz_jtag_emul.vhd
+./KC705_DAQ.srcs/sources_1/imports/prbs/prbs_any.vhd
+./KC705_DAQ.srcs/sources_1/imports/prbs/prbs_chk.vhd
+./KC705_DAQ.srcs/sources_1/imports/prbs/prbs_chk_4ch.vhd
+./KC705_DAQ.srcs/sources_1/imports/prbs/prbs_gen.vhd
+./KC705_DAQ.srcs/sources_1/imports/prbs/prbs_gen_4ch.vhd
+./KC705_DAQ.srcs/sources_1/new/top.vhd
+./KC705_DAQ.srcs/sources_1/new/ETH_firmware/source/Test_env/top_wrap.sv
+./KC705_DAQ.srcs/sources_1/imports/KC705_DAQ/archive_project_summary.txt
+
+<constrs_1>
+./KC705_DAQ.srcs/constrs_1/new/top.xdc
+./KC705_DAQ.srcs/constrs_1/imports/ETH_firmware/constrain/constrain_test_env_position.xdc
+./KC705_DAQ.srcs/constrs_1/imports/ETH_firmware/constrain/constrain_test_env_timing.xdc
+./KC705_DAQ.srcs/constrs_1/imports/ETH_firmware/source/ethernet_mac_interface/constrain/tri_mode_ethernet_mac_0_example_design.xdc
+./KC705_DAQ.srcs/constrs_1/imports/ETH_firmware/source/ethernet_mac_interface/constrain/tri_mode_ethernet_mac_0_user_phytiming.xdc
+
+<sim_1>
+None
+
+<utils_1>
+None
+
+<clk_wiz_0>
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/doc/clk_wiz_v6_0_changelog.txt
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.vho
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_mmcm.vh
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_pll.vh
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_mmcm.vh
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_pll.vh
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_pll.vh
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_mmcm.vh
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xml
+
+<ila_0>
+None
+
+<ila_fake_data_monitor>
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor.xci
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_v6_2/constraints/ila_impl.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor.dcp
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor_stub.v
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ltlib_v1_0_0_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/ltlib_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbs_v1_0_2_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/xsdbs_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_icn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs_ext.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs_core.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bsid_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bsid_vec_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs_vec.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_sl_prt_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_id_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/xsdbm_v3_0_0_id_vec_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/xsdbm_v3_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ila_v6_2_10_ila_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/ila_v6_2_syn_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ila_v6_2_10_ila_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ila_v6_2_10_ila_param.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ila_v6_2_10_ila_lparam.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/hdl/verilog/ila_v6_2_10_ila_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_v6_2/constraints/ila.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/synth/ila_fake_data_monitor.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_fake_data_monitor/ila_fake_data_monitor.xml
+
+<vio_ETH_TX_PRELOAD>
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD.xci
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD.dcp
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD_stub.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/verilog/ltlib_v1_0_0_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/ltlib_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/verilog/xsdbs_v1_0_2_in.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/xsdbs_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/vio_v3_0_19_vio_include.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD.xdc
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/hdl/vio_v3_0_syn_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/synth/vio_ETH_TX_PRELOAD.v
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/vio_ETH_TX_PRELOAD/vio_ETH_TX_PRELOAD.xml
+
+<vio_fake_data>
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data.xci
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data.dcp
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data_stub.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/verilog/ltlib_v1_0_0_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/ltlib_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/verilog/xsdbs_v1_0_2_in.vh
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/xsdbs_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/vio_v3_0_19_vio_include.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data.xdc
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/hdl/vio_v3_0_syn_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/synth/vio_fake_data.v
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/vio_fake_data/vio_fake_data.xml
+
+<ila_ETH_TX_PACKING>
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING.xci
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_v6_2/constraints/ila_impl.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING.dcp
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING_stub.v
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ltlib_v1_0_0_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/ltlib_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbs_v1_0_2_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/xsdbs_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_icn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs_ext.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs_core.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bsid_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bsid_vec_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs_vec.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_sl_prt_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_id_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/xsdbm_v3_0_0_id_vec_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/xsdbm_v3_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ila_v6_2_10_ila_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/ila_v6_2_syn_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ila_v6_2_10_ila_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ila_v6_2_10_ila_param.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ila_v6_2_10_ila_lparam.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/hdl/verilog/ila_v6_2_10_ila_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_v6_2/constraints/ila.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/synth/ila_ETH_TX_PACKING.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_ETH_TX_PACKING/ila_ETH_TX_PACKING.xml
+
+<fifo_ETH_TX>
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX.xci
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX.dcp
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX_stub.v
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX.xdc
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX_clocks.xdc
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/synth/fifo_ETH_TX.vhd
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/fifo_ETH_TX/fifo_ETH_TX.xml
+
+<tri_mode_ethernet_mac_0>
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_board.xdc
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.dcp
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_stub.v
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/xbip_utils_v3_0_vh_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/xbip_bram18k_v3_0_vh_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/mult_gen_v12_0_vh_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_clocks.xdc
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/tri_mode_ethernet_mac_v9_0_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/avb/tx_ptp_pkt_buff_init.mem
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/tri_mode_ethernet_mac_v9_0_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/header_files/tri_mode_ethernet_mac_0_axi4_lite_registers.h
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_tx_clk_gen.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.vhd
+./KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xml
+
+<ila_eth_rx>
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx.xci
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_v6_2/constraints/ila_impl.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx.dcp
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx_stub.v
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx_stub.vhdl
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx_sim_netlist.v
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx_sim_netlist.vhdl
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ltlib_v1_0_0_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/ltlib_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbs_v1_0_2_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/xsdbs_v1_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_i2x.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_icn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs_ext.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs_core.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bsid_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bsid_vec_ports.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs_vec.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_sl_prt_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_id_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/xsdbm_v3_0_0_id_vec_map.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/xsdbm_v3_0_vl_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ila_v6_2_10_ila_ver.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/ila_v6_2_syn_rfs.v
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ila_v6_2_10_ila_in.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ila_v6_2_10_ila_param.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ila_v6_2_10_ila_lparam.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/hdl/verilog/ila_v6_2_10_ila_lib_fn.vh
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_v6_2/constraints/ila.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx_ooc.xdc
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/synth/ila_eth_rx.vhd
+./KC705_DAQ.srcs/sources_1/ip/ila_eth_rx/ila_eth_rx.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<clk_wiz_0>
+None
+
+<ila_0>
+None
+
+<ila_fake_data_monitor>
+None
+
+<vio_ETH_TX_PRELOAD>
+None
+
+<vio_fake_data>
+None
+
+<ila_ETH_TX_PACKING>
+None
+
+<fifo_ETH_TX>
+None
+
+<tri_mode_ethernet_mac_0>
+None
+
+<ila_eth_rx>
+None
+
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = /home/xx/work/tmp/vivado.jou
+Archived Location = ./KC705_DAQ/vivado.jou
+
+Source File = /home/xx/work/tmp/vivado.log
+Archived Location = ./KC705_DAQ/vivado.log
+

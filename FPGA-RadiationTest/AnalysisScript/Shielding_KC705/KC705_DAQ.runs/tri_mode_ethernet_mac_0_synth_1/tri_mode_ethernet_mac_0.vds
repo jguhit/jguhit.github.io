@@ -1,0 +1,1140 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jul 12 09:50:49 2021
+# Process ID: 12473
+# Current directory: /home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1
+# Command line: vivado -log tri_mode_ethernet_mac_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tri_mode_ethernet_mac_0.tcl
+# Log file: /home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/tri_mode_ethernet_mac_0.vds
+# Journal file: /home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source tri_mode_ethernet_mac_0.tcl -notrace
+Command: synth_design -top tri_mode_ethernet_mac_0 -part xc7k325tffg900-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-1540] The version limit for your license is '2021.04' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12572 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 2001.391 ; gain = 202.684 ; free physical = 116 ; free virtual = 9121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'tri_mode_ethernet_mac_0' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.vhd:164]
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_0_block' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:119' bound to instance 'U0' of component 'tri_mode_ethernet_mac_0_block' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.vhd:276]
+INFO: [Synth 8-638] synthesizing module 'tri_mode_ethernet_mac_0_block' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:216]
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_0_tx_clk_gen' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_tx_clk_gen.vhd:64' bound to instance 'clock_inst' of component 'tri_mode_ethernet_mac_0_tx_clk_gen' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:605]
+INFO: [Synth 8-638] synthesizing module 'tri_mode_ethernet_mac_0_tx_clk_gen' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_tx_clk_gen.vhd:75]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'mii_tx_clk_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_tx_clk_gen.vhd:85]
+	Parameter CLK_SEL_TYPE bound to: ASYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'BUFGMUX_SPEED_CLK' to cell 'BUFGMUX' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_tx_clk_gen.vhd:97]
+INFO: [Synth 8-256] done synthesizing module 'tri_mode_ethernet_mac_0_tx_clk_gen' (1#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_tx_clk_gen.vhd:75]
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_0_block_sync_block' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:67' bound to instance 'rxspeedis10100gen' of component 'tri_mode_ethernet_mac_0_block_sync_block' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:619]
+INFO: [Synth 8-638] synthesizing module 'tri_mode_ethernet_mac_0_block_sync_block' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:84]
+	Parameter INITIALISE bound to: 1'b0 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg0' to cell 'FDRE' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:113]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg1' to cell 'FDRE' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:126]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg2' to cell 'FDRE' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:138]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg3' to cell 'FDRE' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:150]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg4' to cell 'FDRE' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'tri_mode_ethernet_mac_0_block_sync_block' (2#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:84]
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_0_block_sync_block' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/common/tri_mode_ethernet_mac_0_block_sync_block.vhd:67' bound to instance 'txspeedis10100gen' of component 'tri_mode_ethernet_mac_0_block_sync_block' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:627]
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_0_gmii_if' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:77' bound to instance 'gmii_interface' of component 'tri_mode_ethernet_mac_0_gmii_if' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:671]
+INFO: [Synth 8-638] synthesizing module 'tri_mode_ethernet_mac_0_gmii_if' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:125]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'mdio_iobuf' to cell 'IOBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:161]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'mdc_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:170]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_tx_clk_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:182]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_tx_en_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:188]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_tx_er_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:194]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_txd_obuf_i' to cell 'OBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:201]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rx_clk_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:208]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rx_dv_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:214]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rx_er_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:220]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_rxd_ibuf_i' to cell 'IBUF' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:227]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'gmii_tx_clk_ddr_iob' to cell 'ODDR' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:246]
+INFO: [Synth 8-113] binding component instance 'bufio_gmii_rx_clk' to cell 'BUFIO' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:278]
+	Parameter BUFR_DIVIDE bound to: BYPASS - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'bufr_gmii_rx_clk' to cell 'BUFR' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:285]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rx_dv' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:308]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rx_er' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:327]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'delay_gmii_rxd' to cell 'IDELAYE2' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:347]
+INFO: [Synth 8-256] done synthesizing module 'tri_mode_ethernet_mac_0_gmii_if' (3#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/physical/tri_mode_ethernet_mac_0_gmii_if.vhd:125]
+	Parameter C_ADDR_RANGE_SIZE bound to: 32'b00000000000000000000011111111111 
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper.vhd:62' bound to instance 'axi4_lite_ipif' of component 'tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:719]
+INFO: [Synth 8-638] synthesizing module 'tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper.vhd:107]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_ADDR_RANGE_SIZE bound to: 2047 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 2047 - type: integer 
+	Parameter C_USE_WSTRB bound to: 0 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 64 - type: integer 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000001 
+	Parameter C_FAMILY bound to: virtex7 - type: string 
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000001 
+	Parameter C_IPIF_ABUS_WIDTH bound to: 32 - type: integer 
+	Parameter C_IPIF_DBUS_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 2047 - type: integer 
+	Parameter C_USE_WSTRB bound to: 0 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 64 - type: integer 
+	Parameter C_FAMILY bound to: virtex7 - type: string 
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+	Parameter C_BUS_AWIDTH bound to: 11 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 2047 - type: integer 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (4#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (5#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (6#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper' (7#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper.vhd:107]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter C_PHYSICAL_INTERFACE bound to: GMII - type: string 
+	Parameter C_INTERNAL_MODE_TYPE bound to: BASEX - type: string 
+	Parameter C_HALF_DUPLEX bound to: 0 - type: integer 
+	Parameter C_HAS_HOST bound to: 1 - type: integer 
+	Parameter C_ADD_FILTER bound to: 0 - type: integer 
+	Parameter C_AT_ENTRIES bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: kintex7 - type: string 
+	Parameter C_HAS_2G5 bound to: 0 - type: integer 
+	Parameter C_MAC_SPEED bound to: TRI_SPEED - type: string 
+	Parameter C_HAS_STATS bound to: 0 - type: integer 
+	Parameter C_NUM_STATS bound to: 34 - type: integer 
+	Parameter C_CNTR_RST bound to: 1 - type: integer 
+	Parameter C_STATS_WIDTH bound to: 64 - type: integer 
+	Parameter C_AVB bound to: 0 - type: integer 
+	Parameter C_RX_VEC_WIDTH bound to: 79 - type: integer 
+	Parameter C_TX_VEC_WIDTH bound to: 79 - type: integer 
+	Parameter C_1588 bound to: 0 - type: integer 
+	Parameter C_TX_INBAND_CF_ENABLE bound to: 0 - type: integer 
+	Parameter C_RX_INBAND_TS_ENABLE bound to: 0 - type: integer 
+	Parameter C_PFC bound to: 0 - type: integer 
+	Parameter C_HAS_MDIO bound to: 1 - type: integer 
+	Parameter C_DEVICE_FAMILY_US bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'tri_mode_ethernet_mac_v9_0_15' declared at '/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/hdl/tri_mode_ethernet_mac_v9_0_rfs.v:17892' bound to instance 'tri_mode_ethernet_mac_0_core' of component 'tri_mode_ethernet_mac_v9_0_15' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:767]
+INFO: [Synth 8-6157] synthesizing module 'LUT4' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4' (20#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized0' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized0' (20#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized1' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized1' (20#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized2' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized2' (20#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized3' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized3' (20#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39203]
+INFO: [Synth 8-6157] synthesizing module 'RAM64X1D' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:70749]
+INFO: [Synth 8-6155] done synthesizing module 'RAM64X1D' (33#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:70749]
+INFO: [Synth 8-6157] synthesizing module 'LUT3' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3' (34#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized0' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized0' (34#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized1' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized1' (34#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized2' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized2' (34#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39161]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:77965]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (35#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:77965]
+INFO: [Synth 8-256] done synthesizing module 'tri_mode_ethernet_mac_0_block' (39#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.vhd:216]
+INFO: [Synth 8-256] done synthesizing module 'tri_mode_ethernet_mac_0' (40#1) [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.vhd:164]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port rx_filter_enable[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port rx_avb_enable[2]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port rx_avb_enable[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port rx_avb_enable[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[16]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[15]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[14]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[13]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[12]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[11]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[10]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[9]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[8]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[7]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[6]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_addr[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[31]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[30]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[29]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[28]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[27]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[26]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[25]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[24]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[23]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[22]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[21]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[20]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[19]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[18]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[17]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[16]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[15]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[14]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[13]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[12]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[11]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[10]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[9]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[8]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[7]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[6]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[5]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[4]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[3]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[2]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter has unconnected port bus2ip_data[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter_wrap has unconnected port bus2ip_addr[11]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter_wrap has unconnected port bus2ip_addr[10]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter_wrap has unconnected port bus2ip_addr[9]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_addr_filter_wrap has unconnected port bus2ip_addr[8]
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port ENABLE_HALF_DUPLEX
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port DEST_ADD_FIELD
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port SOURCE_ADD_FIELD
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port LENGTH_FIELD
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port IFG
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port SPEED_IS_10_100
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[5]
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[4]
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[3]
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[2]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port RESET_GMII_MII
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port INBAND_TS_ENABLE
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SPEED[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SPEED[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port CORE_HAS_SGMII
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port RTC_CLK
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[47]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[46]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[45]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[44]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[43]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[42]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[41]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[40]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[39]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[38]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[37]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[36]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[35]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[34]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[33]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[32]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[31]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[30]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[29]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[28]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[27]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[26]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[25]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[24]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[23]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[22]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[21]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[20]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[19]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[18]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_15_rx has unconnected port SYSTEMTIMER_S_FIELD[17]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 2096.082 ; gain = 297.375 ; free physical = 244 ; free virtual = 9026
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2107.953 ; gain = 309.246 ; free physical = 236 ; free virtual = 9017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2107.953 ; gain = 309.246 ; free physical = 236 ; free virtual = 9017
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2113.891 ; gain = 0.000 ; free physical = 227 ; free virtual = 9009
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc] for cell 'U0'
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc:102]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc:104]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc:106]
+Finished Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tri_mode_ethernet_mac_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tri_mode_ethernet_mac_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_clocks.xdc] for cell 'U0'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'U0' of design 'preSynthElab_1' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_clocks.xdc:47]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'U0' of design 'preSynthElab_1' [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_clocks.xdc:48]
+Finished Parsing XDC File [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_clocks.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tri_mode_ethernet_mac_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tri_mode_ethernet_mac_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2239.719 ; gain = 0.000 ; free physical = 156 ; free virtual = 8895
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 1 instance 
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 8 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2242.688 ; gain = 2.969 ; free physical = 155 ; free virtual = 8895
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2242.688 ; gain = 443.980 ; free physical = 147 ; free virtual = 8889
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2242.688 ; gain = 443.980 ; free physical = 147 ; free virtual = 8889
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+WARNING: set_property IOB could not find object (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 36).
+Applied set_property IOB = TRUE for U0/gmii_interface/gmii_tx_en_obuf_reg. (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 37).
+Applied set_property IOB = TRUE for U0/gmii_interface/gmii_tx_er_obuf_reg. (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 37).
+Applied set_property IOB = TRUE for U0/gmii_interface/rxd_to_mac_reg. (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 38).
+Applied set_property IOB = TRUE for U0/gmii_interface/rx_dv_to_mac_reg. (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 38).
+Applied set_property IOB = TRUE for U0/gmii_interface/rx_er_to_mac_reg. (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 38).
+WARNING: set_property IOB could not find object (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.srcs/sources_1/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.xdc, line 39).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2242.688 ; gain = 443.980 ; free physical = 141 ; free virtual = 8883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'tri_mode_ethernet_mac_v9_0_15_tx_axi_intf'
+INFO: [Synth 8-5546] ROM "int_rx_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_rx_frame_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_rx_pause_ad" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_tx_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_tx_frame_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_fc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_ma_clk_divide" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_ma_mdio_phyad" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_ma_tx_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_tx_latency_adjust" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_speed" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'tri_mode_ethernet_mac_v9_0_15_rx_axi_intf'
+INFO: [Synth 8-5546] ROM "pause_value" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_count_reg' in module 'tri_mode_ethernet_mac_v9_0_15_tx_cntl'
+INFO: [Synth 8-5544] ROM "state_count" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'pause_state_reg' in module 'tri_mode_ethernet_mac_v9_0_15_pfc_tx_cntl'
+INFO: [Synth 8-802] inferred FSM for state register 'legacy_state_reg' in module 'tri_mode_ethernet_mac_v9_0_15_pfc_tx_cntl'
+INFO: [Synth 8-5544] ROM "next_legacy_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+INFO: [Synth 8-6159] Found Keep on FSM register 'tx_state_reg' in module 'tri_mode_ethernet_mac_v9_0_15_tx_axi_intf', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0000 |                             0000
+                   LOAD1 |                             0001 |                             0001
+                   LOAD2 |                             0010 |                             0010
+                    WAIT |                             0011 |                             0011
+                END_LOAD |                             0100 |                             0100
+              CLEAR_PIPE |                             0101 |                             0101
+                 RELOAD1 |                             0110 |                             0110
+                 RELOAD2 |                             0111 |                             0111
+                    SEND |                             1000 |                             1000
+                   BURST |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               01 |                               00
+                     PKT |                               11 |                               01
+                    WAIT |                               10 |                               10
+                    DONE |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_v9_0_15_rx_axi_intf'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                              001 |                              001
+        TRANSMIT_REQUEST |                              010 |                              010
+            TRANSMITTING |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_count_reg' in module 'tri_mode_ethernet_mac_v9_0_15_tx_cntl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                              000
+                     REQ |                             1000 |                              001
+                    WAIT |                             0100 |                              010
+                   COUNT |                             0010 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'legacy_state_reg' using encoding 'one-hot' in module 'tri_mode_ethernet_mac_v9_0_15_pfc_tx_cntl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  P_IDLE |                               00 |                               00
+                   P_REQ |                               01 |                               01
+                  P_WAIT |                               10 |                               10
+                  P_HOLD |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pause_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_v9_0_15_pfc_tx_cntl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 156 ; free virtual = 8768
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "conf/int_speed" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_rx_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_tx_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_fc_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_rx_frame_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_tx_frame_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_tx_latency_adjust" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_ma_clk_divide" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_ma_mdio_phyad" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conf/int_ma_tx_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/bus2ip_wrce_int_reg' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/intc_control.intc/bus2ip_wrce_int_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/bus2ip_rdce_int_reg' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/intc_control.intc/bus2ip_rdce_int_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[0]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[1]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[2]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[3]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[4]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[5]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[6]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ram_rd_byte_reg[7]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/pfc_tx/priority_fsm[0].pri_state_reg[0][2]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/pfc_tx/priority_fsm[0].pri_state_reg[0][1]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/pfc_tx/priority_fsm[0].pri_state_reg[0][0]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][6]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][7]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][5]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][4]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][3]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][2]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][1]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/flow/tx/pfc_quanta_pipe_reg[1][0]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/gmii_mii_tx_gen/hd_tieoff.extension_reg_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[0]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[0]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/addr_regs.af_select_avb_reg_reg[0]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/addr_regs.af_select_avb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/addr_regs.af_select_avb_reg_reg[1]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/intc_control.intc/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[1]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[1]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[2]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[2]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[3]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[3]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[4]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[4]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[5]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[5]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[6]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[6]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[7]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[7]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[8]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[8]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[0]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\addr_filter_top/addr_regs.avb_select_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[9]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[9]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[1]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[10]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[10]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[2]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[11]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[11]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[3]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[12]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[12]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[4]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[13]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[13]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[5]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[14]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[14]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_latency_adjust_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[6]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[15]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/int_tx_latency_adjust_reg[15] )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_tx_priority_en_reg[7]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[16]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/int_tx_latency_adjust_enable_reg )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[17]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[18]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[19]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[20]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/int_auto_xon_reg )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[21]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[22]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[23]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[24]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[24]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[25]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[0]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/int_pfc_en_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[25]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[26]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/int_pfc_en_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/int_tx_half_duplex_reg )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[26]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[27]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[27]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[28]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[28]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[29]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[29]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[30]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[30]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/read_data_reg[31]' (FD) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/conf/ip2bus_error_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\gmii_mii_tx_gen/hd_tieoff.extension_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\flow/pfc_tx/priority_fsm[0].pfc_valid_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/int_rx_half_duplex_reg )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/mdio_enabled.phy/mdio_data_reg[31]' (FDE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/mdio_enabled.phy/mdio_data_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/mdio_enabled.phy/mdio_data_reg[30]' (FDE) to 'U0/tri_mode_ethernet_mac_0_core/man_block.managen/mdio_enabled.phy/mdio_data_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/mdio_enabled.phy/mdio_data_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\intc_control.intc/ip2bus_error_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\man_block.managen/conf/ip2bus_error_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/tri_mode_ethernet_mac_0_core/\addr_filter_top/address_filter_inst/rx_filter_match_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\addr_filter_top/address_filter_inst/rx_ptp_match_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[20]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[21]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[22]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[23]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[24]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[25]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[26]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[27]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[28]' (FDRE) to 'U0/tri_mode_ethernet_mac_0_core/txgen/TX_SM1/STATUS_VECTOR_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\txgen/TX_SM1/STATUS_VECTOR_reg[29] )
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[31]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[16]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[17]' (FDR) to 'U0/tri_mode_ethernet_mac_0_core/addr_filter_top/address_filter_inst/ip2bus_data_reg[23]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\addr_filter_top/address_filter_inst/ip2bus_data_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/tri_mode_ethernet_mac_0_core/\addr_filter_top/address_filter_inst/ip2bus_data_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_duplex/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_duplex/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_duplex/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_duplex/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_duplex/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_duplex/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_duplex/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_duplex/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_duplex/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_duplex/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_pfc_en/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_pfc_en/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_pfc_en/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_pfc_en/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_rx_pfc_en/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_pfc_en/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_pfc_en/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_pfc_en/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_pfc_en/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_tx_pfc_en/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_auto_en/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_auto_en/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_auto_en/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_auto_en/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/sync_auto_en/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[0].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[1].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[2].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[3].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[4].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[5].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_tx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_tx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_tx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_tx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[6].sync_tx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[7].sync_rx_pen/data_sync_reg0) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[7].sync_rx_pen/data_sync_reg1) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[7].sync_rx_pen/data_sync_reg2) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[7].sync_rx_pen/data_sync_reg3) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+WARNING: [Synth 8-3332] Sequential element (flow/ppe_sync[7].sync_rx_pen/data_sync_reg4) is unused and will be removed from module tri_mode_ethernet_mac_v9_0_15.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:42 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 196 ; free virtual = 8775
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 577 ; free virtual = 9174
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 563 ; free virtual = 9160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:54 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 555 ; free virtual = 9152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4618] Found max_fanout attribute set to 20 on net \addr_filter_top/address_filter_inst/counter [1]. Fanout reduced from 21 to 8 by creating 2 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 20 on net \addr_filter_top/address_filter_inst/counter [0]. Fanout reduced from 22 to 8 by creating 2 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/tx_state [2]. Fanout reduced from 34 to 4 by creating 8 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/tx_state [1]. Fanout reduced from 33 to 4 by creating 8 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/tx_state [0]. Fanout reduced from 35 to 4 by creating 8 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/tx_enable_reg . Fanout reduced from 318 to 4 by creating 79 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/tx_state [3]. Fanout reduced from 29 to 4 by creating 7 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/tx_mac_tready_int . Fanout reduced from 15 to 3 by creating 4 replicas.
+INFO: [Synth 8-4618] Found max_fanout attribute set to 4 on net \no_avb_tx_axi_intf.tx_axi_shim/gate_tready . Fanout reduced from 5 to 3 by creating 1 replicas.
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rx_er_to_mac_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rx_dv_to_mac_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[3]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[4]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[5]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[6]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/rxd_to_mac_reg[7]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/gmii_tx_er_obuf_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \gmii_interface/gmii_tx_en_obuf_reg  to handle IOB=TRUE attribute
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin txgen/CRC_CE_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin rxgen/CRC_CE_inferred:in0 to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 574 ; free virtual = 9181
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 571 ; free virtual = 9181
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 573 ; free virtual = 9176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 577 ; free virtual = 9180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 580 ; free virtual = 9183
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 575 ; free virtual = 9177
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFGMUX  |     1|
+|2     |BUFIO    |     1|
+|3     |BUFR     |     1|
+|4     |CARRY4   |    16|
+|5     |IDELAYE2 |    10|
+|6     |LUT1     |    36|
+|7     |LUT2     |   177|
+|8     |LUT3     |   158|
+|9     |LUT4     |   168|
+|10    |LUT5     |   208|
+|11    |LUT6     |   399|
+|12    |MUXF7    |     6|
+|13    |MUXF8    |     2|
+|14    |ODDR     |     1|
+|15    |RAM64X1D |     8|
+|16    |SRL16E   |    14|
+|17    |FDCE     |    26|
+|18    |FDPE     |    20|
+|19    |FDRE     |  1416|
+|20    |FDSE     |   111|
+|21    |IBUF     |    12|
+|22    |IOBUF    |     1|
+|23    |OBUF     |    12|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 580 ; free virtual = 9183
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1153 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:54 . Memory (MB): peak = 2242.691 ; gain = 309.250 ; free physical = 627 ; free virtual = 9230
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 2242.691 ; gain = 443.984 ; free physical = 630 ; free virtual = 9233
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'update_pause_ad_int_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2242.691 ; gain = 0.000 ; free physical = 690 ; free virtual = 9293
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2242.691 ; gain = 0.000 ; free physical = 611 ; free virtual = 9221
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 1 instance 
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+291 Infos, 204 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:01:10 . Memory (MB): peak = 2242.691 ; gain = 623.266 ; free physical = 733 ; free virtual = 9353
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2242.691 ; gain = 0.000 ; free physical = 733 ; free virtual = 9353
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/tri_mode_ethernet_mac_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP tri_mode_ethernet_mac_0, cache-ID = f00da2c9111b998f
+INFO: [Coretcl 2-1174] Renamed 50 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2266.703 ; gain = 0.000 ; free physical = 709 ; free virtual = 9348
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/xx/work/KC705_DAQ/KC705_DAQ.runs/tri_mode_ethernet_mac_0_synth_1/tri_mode_ethernet_mac_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file tri_mode_ethernet_mac_0_utilization_synth.rpt -pb tri_mode_ethernet_mac_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 12 09:52:24 2021...
