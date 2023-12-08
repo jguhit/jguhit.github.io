@@ -15,10 +15,12 @@ This portfolio is aimed at professionals in the industry, including consulting f
 
 ### Project 2: Combination Searches of Di-Higgs Pair Production
 - *Description*: Another significant contribution during my PhD involves the combination of three highly sensitive analyses in di-higgs pair production. This project requires a meticulous calculation of the final results, and I play a key role in this aspect of the analysis.
+- 
+  
 
 ### Project 3: Di-Higgs Search in the bbtautau Final State 
 - *Description*: One of my primary research endeavors during my PhD is the di-higgs search in the bbtautau final state at the Large Hadron Collider (LHC). This analysis is highly specialized, focusing on a specific decay channel within the LHC. My role as the main analyzer encompasses framework development, the development of machine learning models for signal-background separation, statistical analysis, and serving as the paper editor.
-
+- [DiHiggs-bbtautau](https://github.com/jguhit/jguhit.github.io/tree/07642b81486a1a0ca006e1dbfb31836cd779e4bc/DiHiggs-bbtautau)
 ### Project 4: FPGA Radiation Test for the ATLAS Experiment
 - *Description*: Beyond data analysis, I have engaged in a noteworthy project involving the programming of Field-Programmable Gate Arrays (FPGAs) using VHDL. Additionally, I developed a graphical user interface (GUI) program using the PyQt Module in Python to control the hardware during radiation experiments, store data, and conduct analysis.
 
