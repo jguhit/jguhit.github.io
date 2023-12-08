@@ -11,3 +11,15 @@ I made significant contributions to the upcoming SEU (Single Event Upsets) tests
   <img src="FPGA_RadiationSystem.png" alt="FPGA Setup" width="600" height="300">
   <p><em>Caption: FPGA Radiation Test System.</em></p>
 </div>
+
+# Results
+
+<div align="center">
+  <img src="fluence.png" alt="Fluence" width="900" height="500"/>
+  <p><em>Caption: Fluence (n/cm^2) for two FPGA boards under test and show similar fluence rates. All SEU Errors are shown and has even distribution. > 20 MeV is close to > 10 MeV energies. The fluence values are used to calculate average flux.</em></p>
+</div>
+
+<div align="center">
+  <img src="aveflux.png" alt="Average Flux" width="900" height="500">
+  <p><em>Caption: Average Flux (n/cm^2/s) for two FPGA boards under test, it summarizes different SEU errors that occurred during the beam test and they show optimistic results.</em></p>
+</div>
