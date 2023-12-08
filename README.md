@@ -27,7 +27,7 @@ This portfolio is aimed at professionals in the industry, including consulting f
 
 ### Project 5: NetBASILISK (Security Infrastructure Project)
 - *Description*: In collaboration with the University of Michigan Computer Science Department, I led a project called NetBASILISK. This security infrastructure project involved the creation of a benchmark framework for simulating data transfers and calculating statistical information. Additionally, I designed an environmental framework to extract network metrics during data transfers and correlate the results with the benchmark framework.
-- 
+- [NetBASILISK](https://github.com/jguhit/jguhit.github.io/tree/33261b98575696482a0b881c216dc53ab8a34372/NetBASILISK)
 
 (These projects provide a snapshot of my diverse research and software development experiences. Each project is accompanied by detailed descriptions and links to relevant resources for further exploration.)
 
